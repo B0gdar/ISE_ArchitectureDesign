@@ -16823,7 +16823,7 @@
         <styles xmi:type="notation:FilteringStyle" xmi:id="_CUYh5LQsEeWg6OidtfhE_g"/>
       </children>
       <element xmi:type="uml:Class" href="AD_GitHub.uml#_CT9EELQsEeWg6OidtfhE_g"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUWFobQsEeWg6OidtfhE_g" x="312" y="194" width="305" height="150"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUWFobQsEeWg6OidtfhE_g" x="312" y="183" width="305" height="150"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_CU4RI7QsEeWg6OidtfhE_g" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_CU4RJLQsEeWg6OidtfhE_g" showTitle="true"/>
