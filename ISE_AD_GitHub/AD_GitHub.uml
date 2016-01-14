@@ -482,6 +482,16 @@ Stakeholders:&#xD;
 Concerns satisfied:&#xD;
 INCONSISTENCIES: </body>
               </ownedComment>
+              <ownedUseCase xmi:type="uml:UseCase" xmi:id="_j_uVMbr9EeWV_oLpAphyOQ" name="Servers Building" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                <generalization xmi:type="uml:Generalization" xmi:id="_j_uVMrr9EeWV_oLpAphyOQ" general="_j_uVM7r9EeWV_oLpAphyOQ"/>
+              </ownedUseCase>
+              <ownedUseCase xmi:type="uml:UseCase" xmi:id="_j_uVM7r9EeWV_oLpAphyOQ" name="Checking drone availability" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                <generalization xmi:type="uml:Generalization" xmi:id="_j_uVNLr9EeWV_oLpAphyOQ" general="_j_uVNbr9EeWV_oLpAphyOQ"/>
+              </ownedUseCase>
+              <ownedUseCase xmi:type="uml:UseCase" xmi:id="_j_uVNbr9EeWV_oLpAphyOQ" name="Define Standard State" subject="_j_tuILr9EeWV_oLpAphyOQ"/>
+              <ownedUseCase xmi:type="uml:UseCase" xmi:id="_j_tuIbr9EeWV_oLpAphyOQ" name="Computers turning on" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                <generalization xmi:type="uml:Generalization" xmi:id="_j_uVMLr9EeWV_oLpAphyOQ" general="_j_uVMbr9EeWV_oLpAphyOQ"/>
+              </ownedUseCase>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_n9mJ4LOzEeWg6OidtfhE_g" name="use cases models_1" type="_708kQLOyEeWg6OidtfhE_g" association="_n9ifgLOzEeWg6OidtfhE_g"/>
               <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_weJVALO7EeWg6OidtfhE_g" name="System termination">
                 <region xmi:type="uml:Region" xmi:id="_xYAVMLO7EeWg6OidtfhE_g" name="Region1">
@@ -497,6 +507,27 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_j_tuILr9EeWV_oLpAphyOQ" name="System termination" useCase="_j_tuIbr9EeWV_oLpAphyOQ _j_uVMbr9EeWV_oLpAphyOQ _j_uVM7r9EeWV_oLpAphyOQ _j_uVNbr9EeWV_oLpAphyOQ _PaoYILsLEeWV_oLpAphyOQ _4OcTcLsMEeWV_oLpAphyOQ _CU3w4LsNEeWV_oLpAphyOQ _bEUGILsNEeWV_oLpAphyOQ _0aedILsNEeWV_oLpAphyOQ">
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_MQ0HgLsLEeWV_oLpAphyOQ" name="CopyOf_Computers turning on_1">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_MQ0HgbsLEeWV_oLpAphyOQ" general="_j_uVMbr9EeWV_oLpAphyOQ"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_PaoYILsLEeWV_oLpAphyOQ" name="Stop command" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_3LjdoLsNEeWV_oLpAphyOQ" general="_0aedILsNEeWV_oLpAphyOQ"/>
+                  <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_USv9oLsLEeWV_oLpAphyOQ" name=""/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_4OcTcLsMEeWV_oLpAphyOQ" name="Stop Drone" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_GiJpoLsNEeWV_oLpAphyOQ" general="_CU3w4LsNEeWV_oLpAphyOQ"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_CU3w4LsNEeWV_oLpAphyOQ" name="Computers turning down" subject="_j_tuILr9EeWV_oLpAphyOQ"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bEUGILsNEeWV_oLpAphyOQ" name="Checking Drone Availability" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_hmL3sLsNEeWV_oLpAphyOQ" general="_4OcTcLsMEeWV_oLpAphyOQ"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0aedILsNEeWV_oLpAphyOQ" name="Give up normal operation" subject="_j_tuILr9EeWV_oLpAphyOQ">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_4fGJILsNEeWV_oLpAphyOQ" general="_bEUGILsNEeWV_oLpAphyOQ"/>
+                </ownedUseCase>
+              </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_f3xqkLsMEeWV_oLpAphyOQ" name="System Adm"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_rLpykLsMEeWV_oLpAphyOQ" name="System Security"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_-4hC8LOyEeWg6OidtfhE_g" name="Avoiding a collision" classifierBehavior="_8NR1oLO7EeWg6OidtfhE_g">
               <ownedComment xmi:type="uml:Comment" xmi:id="_tkfjILPCEeWg6OidtfhE_g">
@@ -589,6 +620,20 @@ INCONSISTENCIES: </body>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_A-P3YLQWEeWg6OidtfhE_g" name="initialize system" type="_oDZ_4LQUEeWg6OidtfhE_g" association="_A-OpQLQWEeWg6OidtfhE_g"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_A-P3YbQWEeWg6OidtfhE_g" name="system off" type="_vbMFwLQUEeWg6OidtfhE_g" association="_A-OpQLQWEeWg6OidtfhE_g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_pjF5ULsMEeWV_oLpAphyOQ" memberEnd="_pjlBgLsMEeWV_oLpAphyOQ _pjm2sLsMEeWV_oLpAphyOQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pjhXILsMEeWV_oLpAphyOQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pjh-MLsMEeWV_oLpAphyOQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_pjlBgLsMEeWV_oLpAphyOQ" name="stop command" type="_PaoYILsLEeWV_oLpAphyOQ" association="_pjF5ULsMEeWV_oLpAphyOQ"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_pjm2sLsMEeWV_oLpAphyOQ" name="system adm" type="_f3xqkLsMEeWV_oLpAphyOQ" association="_pjF5ULsMEeWV_oLpAphyOQ"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_uoQcULsMEeWV_oLpAphyOQ" memberEnd="_uoSRgLsMEeWV_oLpAphyOQ _uoS4kLsMEeWV_oLpAphyOQ">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uoRqcLsMEeWV_oLpAphyOQ" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uoRqcbsMEeWV_oLpAphyOQ" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_uoSRgLsMEeWV_oLpAphyOQ" name="stop command" type="_PaoYILsLEeWV_oLpAphyOQ" association="_uoQcULsMEeWV_oLpAphyOQ"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_uoS4kLsMEeWV_oLpAphyOQ" name="system security" type="_rLpykLsMEeWV_oLpAphyOQ" association="_uoQcULsMEeWV_oLpAphyOQ"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
