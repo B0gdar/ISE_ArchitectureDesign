@@ -144,8 +144,76 @@ INCONSISTENCIES: </body>
               <ownedAttribute xmi:type="uml:Property" xmi:id="_5OkyYLPHEeWg6OidtfhE_g" name="app state machine_1" type="_nsOV8LPHEeWg6OidtfhE_g" aggregation="shared" association="_5Oi9MLPHEeWg6OidtfhE_g"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_dxnG8LPHEeWg6OidtfhE_g" name="Local System State Machine"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_i_-CMLPHEeWg6OidtfhE_g" name="Malfunctioning check State Machine"/>
-            <packagedElement xmi:type="uml:Class" xmi:id="_lpAhALPHEeWg6OidtfhE_g" name="Emergency Operation mode"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_i_-CMLPHEeWg6OidtfhE_g" name="Malfunctioning check State Machine" classifierBehavior="_gz_W0LruEeWm4f4F4WfYLw">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_gz_W0LruEeWm4f4F4WfYLw" name="Malfunctional Check State Machine" node="_dZUxULrvEeWm4f4F4WfYLw _dZUxU7rvEeWm4f4F4WfYLw _dZUxVLrvEeWm4f4F4WfYLw _dZVYYLrvEeWm4f4F4WfYLw _dZVYYbrvEeWm4f4F4WfYLw _dZVYY7rvEeWm4f4F4WfYLw _dZV_cLrvEeWm4f4F4WfYLw _dZV_cbrvEeWm4f4F4WfYLw _dZV_c7rvEeWm4f4F4WfYLw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZUKQLrvEeWm4f4F4WfYLw">
+                  <body>Each state is briefly described in the comments associated to it.</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZUxUbrvEeWm4f4F4WfYLw">
+                  <body>This is a Timed Interruption that checks if the system is working as it was desgined for. </body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZUxUrrvEeWm4f4F4WfYLw">
+                  <body>1. System variables are in a normal range?</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZVYYrrvEeWm4f4F4WfYLw">
+                  <body>2.Is the drone connected/properlly conected to the local network?</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZV_crrvEeWm4f4F4WfYLw">
+                  <body>4. Still not connected?</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_dZV_dLrvEeWm4f4F4WfYLw">
+                  <body>3.Was the guide service cancelled by the user?</body>
+                </ownedComment>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_jmNxYLrvEeWm4f4F4WfYLw" target="_dZUxULrvEeWm4f4F4WfYLw" source="_dZV_c7rvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_mKMxELrvEeWm4f4F4WfYLw" name="no" target="_dZUxU7rvEeWm4f4F4WfYLw" source="_dZUxULrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_riSQELrvEeWm4f4F4WfYLw" name="Yes" target="_dZVYYbrvEeWm4f4F4WfYLw" source="_dZUxULrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_t2a14LrvEeWm4f4F4WfYLw" name="Yes" target="_dZV_cbrvEeWm4f4F4WfYLw" source="_dZVYYbrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_v_NHULrvEeWm4f4F4WfYLw" name="No" target="_dZVYY7rvEeWm4f4F4WfYLw" source="_dZVYYbrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_6d23gLrvEeWm4f4F4WfYLw" target="_dZV_cLrvEeWm4f4F4WfYLw" source="_dZVYY7rvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_93RDULrvEeWm4f4F4WfYLw" name="Yes" target="_dZVYYLrvEeWm4f4F4WfYLw" source="_dZV_cLrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_LE7XcLrwEeWm4f4F4WfYLw" name="No" target="_dZV_cbrvEeWm4f4F4WfYLw" source="_dZV_cLrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_OlSf0LrwEeWm4f4F4WfYLw" name="Yes" target="_dZUxVLrvEeWm4f4F4WfYLw" source="_dZV_cbrvEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_Sw6ywLrwEeWm4f4F4WfYLw" name="No" target="_dZVYYLrvEeWm4f4F4WfYLw" source="_dZV_cbrvEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_dZUxULrvEeWm4f4F4WfYLw" name="1." incoming="_jmNxYLrvEeWm4f4F4WfYLw" outgoing="_mKMxELrvEeWm4f4F4WfYLw _riSQELrvEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_dZUxU7rvEeWm4f4F4WfYLw" name="EMERGENCY_MODE" incoming="_mKMxELrvEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_dZUxVLrvEeWm4f4F4WfYLw" name="RETUN_HOME" incoming="_OlSf0LrwEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:ActivityFinalNode" xmi:id="_dZVYYLrvEeWm4f4F4WfYLw" name="ActivityFinalNode1" incoming="_93RDULrvEeWm4f4F4WfYLw _Sw6ywLrwEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_dZVYYbrvEeWm4f4F4WfYLw" name="2." incoming="_riSQELrvEeWm4f4F4WfYLw" outgoing="_t2a14LrvEeWm4f4F4WfYLw _v_NHULrvEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_dZVYY7rvEeWm4f4F4WfYLw" name="WAIT" incoming="_v_NHULrvEeWm4f4F4WfYLw" outgoing="_6d23gLrvEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_dZV_cLrvEeWm4f4F4WfYLw" name="4." incoming="_6d23gLrvEeWm4f4F4WfYLw" outgoing="_93RDULrvEeWm4f4F4WfYLw _LE7XcLrwEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_dZV_cbrvEeWm4f4F4WfYLw" name="3." incoming="_t2a14LrvEeWm4f4F4WfYLw _LE7XcLrwEeWm4f4F4WfYLw" outgoing="_OlSf0LrwEeWm4f4F4WfYLw _Sw6ywLrwEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:InitialNode" xmi:id="_dZV_c7rvEeWm4f4F4WfYLw" name="Timed Interrupt" outgoing="_jmNxYLrvEeWm4f4F4WfYLw"/>
+              </ownedBehavior>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_lpAhALPHEeWg6OidtfhE_g" name="Emergency Operation mode" classifierBehavior="_jRUC8LrwEeWm4f4F4WfYLw">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_jRUC8LrwEeWm4f4F4WfYLw" name="Emergency Operation Mode" node="_8QKGILrwEeWm4f4F4WfYLw _8QKtMrrwEeWm4f4F4WfYLw _8QKtM7rwEeWm4f4F4WfYLw _8QKtNLrwEeWm4f4F4WfYLw _8QKtNrrwEeWm4f4F4WfYLw _8QKtN7rwEeWm4f4F4WfYLw _8QLUQLrwEeWm4f4F4WfYLw">
+                <ownedComment xmi:type="uml:Comment" xmi:id="_8QKtMLrwEeWm4f4F4WfYLw">
+                  <body>State machine of the EMERGENCY_MODE. It describes how the system will act when a malfunctioning is detected.</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_8QKtMbrwEeWm4f4F4WfYLw">
+                  <body>1. Leveling ok?&#xD;
+Height ok?&#xD;
+Camera ok?</body>
+                </ownedComment>
+                <ownedComment xmi:type="uml:Comment" xmi:id="_8QKtNbrwEeWm4f4F4WfYLw">
+                  <body>2. Battery &lt; minimum to come back to the base?</body>
+                </ownedComment>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_K3kbcLrxEeWm4f4F4WfYLw" target="_8QKGILrwEeWm4f4F4WfYLw" source="_8QKtM7rwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_MZ-CULrxEeWm4f4F4WfYLw" name="Yes" target="_8QKtN7rwEeWm4f4F4WfYLw" source="_8QKGILrwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_OvIi4LrxEeWm4f4F4WfYLw" name="Yes" target="_8QKtNLrwEeWm4f4F4WfYLw" source="_8QKtN7rwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_Rg6G8LrxEeWm4f4F4WfYLw" name="No" target="_8QLUQLrwEeWm4f4F4WfYLw" source="_8QKGILrwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_TwAbwLrxEeWm4f4F4WfYLw" name="No" target="_8QKtNrrwEeWm4f4F4WfYLw" source="_8QKtN7rwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_W3piILrxEeWm4f4F4WfYLw" target="_8QKtMrrwEeWm4f4F4WfYLw" source="_8QKtNLrwEeWm4f4F4WfYLw"/>
+                <edge xmi:type="uml:ControlFlow" xmi:id="_iK3i0LrxEeWm4f4F4WfYLw" target="_8QKtMrrwEeWm4f4F4WfYLw" source="_8QKtNrrwEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_8QKGILrwEeWm4f4F4WfYLw" name="1." incoming="_K3kbcLrxEeWm4f4F4WfYLw" outgoing="_MZ-CULrxEeWm4f4F4WfYLw _Rg6G8LrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:ActivityFinalNode" xmi:id="_8QKtMrrwEeWm4f4F4WfYLw" name="End of EMERGENCY_MODE" incoming="_W3piILrxEeWm4f4F4WfYLw _iK3i0LrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:InitialNode" xmi:id="_8QKtM7rwEeWm4f4F4WfYLw" name="EMERGENCY_MODE" outgoing="_K3kbcLrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_8QKtNLrwEeWm4f4F4WfYLw" name="BACK_HOME" incoming="_OvIi4LrxEeWm4f4F4WfYLw" outgoing="_W3piILrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_8QKtNrrwEeWm4f4F4WfYLw" name="BACK_TO_NORMAL_MODE" incoming="_TwAbwLrxEeWm4f4F4WfYLw" outgoing="_iK3i0LrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:DecisionNode" xmi:id="_8QKtN7rwEeWm4f4F4WfYLw" name="2." incoming="_MZ-CULrxEeWm4f4F4WfYLw" outgoing="_OvIi4LrxEeWm4f4F4WfYLw _TwAbwLrxEeWm4f4F4WfYLw"/>
+                <node xmi:type="uml:OpaqueAction" xmi:id="_8QLUQLrwEeWm4f4F4WfYLw" name="Land_Inmediatly" incoming="_Rg6G8LrxEeWm4f4F4WfYLw"/>
+              </ownedBehavior>
+            </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_nsOV8LPHEeWg6OidtfhE_g" name="App State Machine" classifierBehavior="_Izpp0LPIEeWg6OidtfhE_g">
               <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Izpp0LPIEeWg6OidtfhE_g" name="App State Machine">
                 <region xmi:type="uml:Region" xmi:id="_JpfFoLPIEeWg6OidtfhE_g" name="Region1">
@@ -160,6 +228,45 @@ Concerns satisfied:&#xD;
 INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
+              </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_q01CQLrxEeWm4f4F4WfYLw" name="App State Machine">
+                <ownedBehavior xmi:type="uml:Activity" xmi:id="_BUZmoLryEeWm4f4F4WfYLw" name="App State Machine" node="_BUZmrbryEeWm4f4F4WfYLw _BUZmrrryEeWm4f4F4WfYLw _BUZmr7ryEeWm4f4F4WfYLw _BUZmsLryEeWm4f4F4WfYLw _BUZmsbryEeWm4f4F4WfYLw _BUZmsrryEeWm4f4F4WfYLw _BUZms7ryEeWm4f4F4WfYLw _BUZmtLryEeWm4f4F4WfYLw _BUZmtbryEeWm4f4F4WfYLw _BUZmtrryEeWm4f4F4WfYLw">
+                  <ownedComment xmi:type="uml:Comment" xmi:id="_BUZmobryEeWm4f4F4WfYLw">
+                    <body>State machine of the Mobile App that the system will use. Each state will be described on the commments section of it.</body>
+                  </ownedComment>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmorryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmrbryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmo7ryEeWm4f4F4WfYLw" name="[Drone_Request]" target="_BUZmsrryEeWm4f4F4WfYLw" source="_BUZmrrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmpLryEeWm4f4F4WfYLw" name="Yes" target="_BUZmr7ryEeWm4f4F4WfYLw" source="_BUZmsrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmpbryEeWm4f4F4WfYLw" name="No" target="_BUZmtLryEeWm4f4F4WfYLw" source="_BUZmsrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmprryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmtLryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmp7ryEeWm4f4F4WfYLw" name="[Drone_Arrives_To_Destination]" target="_BUZms7ryEeWm4f4F4WfYLw" source="_BUZmr7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmqLryEeWm4f4F4WfYLw" name="No" target="_BUZmtbryEeWm4f4F4WfYLw" source="_BUZms7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmqbryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmtbryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmqrryEeWm4f4F4WfYLw" name="Si" target="_BUZmsLryEeWm4f4F4WfYLw" source="_BUZms7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmq7ryEeWm4f4F4WfYLw" name="[Drone_Arrives_To_Destination]" target="_BUZmsbryEeWm4f4F4WfYLw" source="_BUZmsLryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_BUZmrLryEeWm4f4F4WfYLw" target="_BUZmtrryEeWm4f4F4WfYLw" source="_BUZmsbryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_GDTlwLryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmrbryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_IhCzgLryEeWm4f4F4WfYLw" name="[Drone_Request]" target="_BUZmsrryEeWm4f4F4WfYLw" source="_BUZmrrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_ROP0MLryEeWm4f4F4WfYLw" name="Yes" target="_BUZmr7ryEeWm4f4F4WfYLw" source="_BUZmsrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_TXO58LryEeWm4f4F4WfYLw" name="No" target="_BUZmtLryEeWm4f4F4WfYLw" source="_BUZmsrryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_ZYcOcLryEeWm4f4F4WfYLw" name="[Drone_Arrives_To_Destination]" target="_BUZms7ryEeWm4f4F4WfYLw" source="_BUZmr7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_lQYFwLryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmtLryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_pg78ALryEeWm4f4F4WfYLw" target="_BUZmrrryEeWm4f4F4WfYLw" source="_BUZmtbryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_04HPoLryEeWm4f4F4WfYLw" name="No" target="_BUZmtbryEeWm4f4F4WfYLw" source="_BUZms7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_B4UWkLrzEeWm4f4F4WfYLw" name="Yes" target="_BUZmsLryEeWm4f4F4WfYLw" source="_BUZms7ryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_a5xB0LrzEeWm4f4F4WfYLw" name="[Drone_Arrives_To_Destination]" target="_BUZmsbryEeWm4f4F4WfYLw" source="_BUZmsLryEeWm4f4F4WfYLw"/>
+                  <edge xmi:type="uml:ControlFlow" xmi:id="_mwc78LrzEeWm4f4F4WfYLw" target="_BUZmtrryEeWm4f4F4WfYLw" source="_BUZmsbryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:InitialNode" xmi:id="_BUZmrbryEeWm4f4F4WfYLw" name="APP_INIT" outgoing="_BUZmorryEeWm4f4F4WfYLw _GDTlwLryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmrrryEeWm4f4F4WfYLw" name="WAIT" incoming="_BUZmorryEeWm4f4F4WfYLw _BUZmprryEeWm4f4F4WfYLw _BUZmqbryEeWm4f4F4WfYLw _GDTlwLryEeWm4f4F4WfYLw _lQYFwLryEeWm4f4F4WfYLw _pg78ALryEeWm4f4F4WfYLw" outgoing="_BUZmo7ryEeWm4f4F4WfYLw _IhCzgLryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmr7ryEeWm4f4F4WfYLw" name="WAIT" incoming="_BUZmpLryEeWm4f4F4WfYLw _ROP0MLryEeWm4f4F4WfYLw" outgoing="_BUZmp7ryEeWm4f4F4WfYLw _ZYcOcLryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmsLryEeWm4f4F4WfYLw" name="GUIDING_STATE" incoming="_BUZmqrryEeWm4f4F4WfYLw _B4UWkLrzEeWm4f4F4WfYLw" outgoing="_BUZmq7ryEeWm4f4F4WfYLw _a5xB0LrzEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmsbryEeWm4f4F4WfYLw" name="ARRIVAL_OK_MESSAGE" incoming="_BUZmq7ryEeWm4f4F4WfYLw _a5xB0LrzEeWm4f4F4WfYLw" outgoing="_BUZmrLryEeWm4f4F4WfYLw _mwc78LrzEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:DecisionNode" xmi:id="_BUZmsrryEeWm4f4F4WfYLw" name="Any drone left?" incoming="_BUZmo7ryEeWm4f4F4WfYLw _IhCzgLryEeWm4f4F4WfYLw" outgoing="_BUZmpLryEeWm4f4F4WfYLw _BUZmpbryEeWm4f4F4WfYLw _ROP0MLryEeWm4f4F4WfYLw _TXO58LryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:DecisionNode" xmi:id="_BUZms7ryEeWm4f4F4WfYLw" name="Does the user sees the drone?" incoming="_BUZmp7ryEeWm4f4F4WfYLw _ZYcOcLryEeWm4f4F4WfYLw" outgoing="_BUZmqLryEeWm4f4F4WfYLw _BUZmqrryEeWm4f4F4WfYLw _04HPoLryEeWm4f4F4WfYLw _B4UWkLrzEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmtLryEeWm4f4F4WfYLw" name="NO_DRONES_LEFT_MESSAGE" incoming="_BUZmpbryEeWm4f4F4WfYLw _TXO58LryEeWm4f4F4WfYLw" outgoing="_BUZmprryEeWm4f4F4WfYLw _lQYFwLryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:OpaqueAction" xmi:id="_BUZmtbryEeWm4f4F4WfYLw" name="USER_NOT_IN_SPOT_MESSAGE" incoming="_BUZmqLryEeWm4f4F4WfYLw _04HPoLryEeWm4f4F4WfYLw" outgoing="_BUZmqbryEeWm4f4F4WfYLw _pg78ALryEeWm4f4F4WfYLw"/>
+                  <node xmi:type="uml:ActivityFinalNode" xmi:id="_BUZmtrryEeWm4f4F4WfYLw" name="End_of_Routine" incoming="_BUZmrLryEeWm4f4F4WfYLw _mwc78LrzEeWm4f4F4WfYLw"/>
+                </ownedBehavior>
               </ownedBehavior>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_234n0LPHEeWg6OidtfhE_g" memberEnd="_23518LPHEeWg6OidtfhE_g _23518bPHEeWg6OidtfhE_g">
@@ -185,6 +292,35 @@ INCONSISTENCIES: </body>
                 <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5OjkQbPHEeWg6OidtfhE_g" key="nature" value="SysML_Nature"/>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_5OpD0LPHEeWg6OidtfhE_g" name="state machines_1" type="_bxH14LPHEeWg6OidtfhE_g" association="_5Oi9MLPHEeWg6OidtfhE_g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Activity" xmi:id="_-mck4LrsEeWm4f4F4WfYLw" name="Local System State Chart" node="_IZAEELrtEeWm4f4F4WfYLw _IZAEEbrtEeWm4f4F4WfYLw _IZAEErrtEeWm4f4F4WfYLw _IZArILrtEeWm4f4F4WfYLw _IZArIbrtEeWm4f4F4WfYLw _IZArIrrtEeWm4f4F4WfYLw _IZArI7rtEeWm4f4F4WfYLw _IZArJLrtEeWm4f4F4WfYLw _IZBSMLrtEeWm4f4F4WfYLw _MZalgLrtEeWm4f4F4WfYLw">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_IY_dALrtEeWm4f4F4WfYLw">
+                <body>State Machine of the Local System: Describes the main modes and trasitions of the intelligence that commands the entire System.</body>
+              </ownedComment>
+              <ownedComment xmi:type="uml:Comment" xmi:id="_IZBSMbrtEeWm4f4F4WfYLw">
+                <body>Each state is briefly described in the comments associated to it. lol</body>
+              </ownedComment>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_ZDUsULrtEeWm4f4F4WfYLw" target="_IZArJLrtEeWm4f4F4WfYLw" source="_MZalgLrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_csKbQLrtEeWm4f4F4WfYLw" name="[Request_In]" target="_IZArIrrtEeWm4f4F4WfYLw" source="_IZArJLrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_geSCALrtEeWm4f4F4WfYLw" name="Yes" target="_IZArILrtEeWm4f4F4WfYLw" source="_IZArIrrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_lPvl4LrtEeWm4f4F4WfYLw" name="No" target="_IZAEELrtEeWm4f4F4WfYLw" source="_IZArIrrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_pd1-ALrtEeWm4f4F4WfYLw" name="[Drone_Reaches_Destination]" target="_IZAEEbrtEeWm4f4F4WfYLw" source="_IZArILrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_veFCILrtEeWm4f4F4WfYLw" name="Yes" target="_IZBSMLrtEeWm4f4F4WfYLw" source="_IZAEEbrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_xktXcLrtEeWm4f4F4WfYLw" name="No" target="_IZArI7rtEeWm4f4F4WfYLw" source="_IZAEEbrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_4GC9gLrtEeWm4f4F4WfYLw" name="[Error_Notified_Correctly]" target="_IZAEErrtEeWm4f4F4WfYLw" source="_IZArI7rtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_EzybcLruEeWm4f4F4WfYLw" name="[Drone_Reaches_Destination]" target="_IZAEErrtEeWm4f4F4WfYLw" source="_IZBSMLrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_JvpRcLruEeWm4f4F4WfYLw" name="[Drone_Reaches_Destination]" target="_IZArJLrtEeWm4f4F4WfYLw" source="_IZAEErrtEeWm4f4F4WfYLw"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_UbyrELruEeWm4f4F4WfYLw" name="[Error_Notified_Correctly]" target="_IZArJLrtEeWm4f4F4WfYLw" source="_IZAEELrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZAEELrtEeWm4f4F4WfYLw" name="ERROR_NO_DRONE" incoming="_lPvl4LrtEeWm4f4F4WfYLw" outgoing="_UbyrELruEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_IZAEEbrtEeWm4f4F4WfYLw" name="User sees the drone?" incoming="_pd1-ALrtEeWm4f4F4WfYLw" outgoing="_veFCILrtEeWm4f4F4WfYLw _xktXcLrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZAEErrtEeWm4f4F4WfYLw" name="BACK_HOME" incoming="_4GC9gLrtEeWm4f4F4WfYLw _EzybcLruEeWm4f4F4WfYLw" outgoing="_JvpRcLruEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZArILrtEeWm4f4F4WfYLw" name="DRONE_TO_USER" incoming="_geSCALrtEeWm4f4F4WfYLw" outgoing="_pd1-ALrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_IZArIbrtEeWm4f4F4WfYLw" name="On"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_IZArIrrtEeWm4f4F4WfYLw" name="Drones left?" incoming="_csKbQLrtEeWm4f4F4WfYLw" outgoing="_geSCALrtEeWm4f4F4WfYLw _lPvl4LrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZArI7rtEeWm4f4F4WfYLw" name="ERROR_NOTIFICATION" incoming="_xktXcLrtEeWm4f4F4WfYLw" outgoing="_4GC9gLrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZArJLrtEeWm4f4F4WfYLw" name="WAIT" incoming="_ZDUsULrtEeWm4f4F4WfYLw _JvpRcLruEeWm4f4F4WfYLw _UbyrELruEeWm4f4F4WfYLw" outgoing="_csKbQLrtEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_IZBSMLrtEeWm4f4F4WfYLw" name="GUIDING" incoming="_veFCILrtEeWm4f4F4WfYLw" outgoing="_EzybcLruEeWm4f4F4WfYLw"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_MZalgLrtEeWm4f4F4WfYLw" name="On" outgoing="_ZDUsULrtEeWm4f4F4WfYLw"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_MhcwYLJLEeWoUp-kx4A_qQ" name="Use Cases Model">
