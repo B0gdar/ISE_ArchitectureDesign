@@ -15564,6 +15564,11 @@
       </children>
       <children xmi:type="notation:DecorationNode" xmi:id="_BggM47uKEeW0O4sLWQmi3g" type="7011">
         <children xmi:type="notation:Shape" xmi:id="_HJ1z8LuKEeW0O4sLWQmi3g" type="3009" fontName="Segoe UI Semilight">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7LWWwLuLEeW0O4sLWQmi3g" source="PapyrusHyperLink_Object" references="_95_lMLOyEeWg6OidtfhE_g">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LWWwbuLEeW0O4sLWQmi3g" key="tooltip_text"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LWWwruLEeW0O4sLWQmi3g" key="pageName" value="PapyrusHyperLink_Object"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7LWWw7uLEeW0O4sLWQmi3g" key="is_default_navigation" value="false"/>
+          </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_HJ2bALuKEeW0O4sLWQmi3g" type="5018"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_HJ2bAbuKEeW0O4sLWQmi3g" type="6045">
             <layoutConstraint xmi:type="notation:Location" xmi:id="_HJ2bAruKEeW0O4sLWQmi3g" y="5"/>
