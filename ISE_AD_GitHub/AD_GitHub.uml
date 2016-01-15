@@ -746,6 +746,23 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Activity" xmi:id="_YHhtALueEeW0Bbbf_g52ow" name="System termination" useCase="_fEQOkLueEeW0Bbbf_g52ow _hKMAULueEeW0Bbbf_g52ow _jmbZQLueEeW0Bbbf_g52ow _otq_4LueEeW0Bbbf_g52ow _suHWgLueEeW0Bbbf_g52ow">
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_fEQOkLueEeW0Bbbf_g52ow" name="Stop command" subject="_YHhtALueEeW0Bbbf_g52ow">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_KwtAYLufEeW0Bbbf_g52ow" general="_hKMAULueEeW0Bbbf_g52ow"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_hKMAULueEeW0Bbbf_g52ow" name="Give up normal operation" subject="_YHhtALueEeW0Bbbf_g52ow">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_L1NKULufEeW0Bbbf_g52ow" general="_jmbZQLueEeW0Bbbf_g52ow"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jmbZQLueEeW0Bbbf_g52ow" name="Check Drone availability" subject="_YHhtALueEeW0Bbbf_g52ow">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_O1V6gLufEeW0Bbbf_g52ow" general="_otq_4LueEeW0Bbbf_g52ow"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_otq_4LueEeW0Bbbf_g52ow" name="Stop Drone" subject="_YHhtALueEeW0Bbbf_g52ow">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_QMIuULufEeW0Bbbf_g52ow" general="_suHWgLueEeW0Bbbf_g52ow"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_suHWgLueEeW0Bbbf_g52ow" name="Turn down computers" subject="_YHhtALueEeW0Bbbf_g52ow"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_vm_oILueEeW0Bbbf_g52ow" name="System Security"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_y3gWoLueEeW0Bbbf_g52ow" name="System Adm"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_-4hC8LOyEeWg6OidtfhE_g" name="Avoiding a collision" classifierBehavior="_8NR1oLO7EeWg6OidtfhE_g">
               <ownedComment xmi:type="uml:Comment" xmi:id="_tkfjILPCEeWg6OidtfhE_g">
@@ -852,6 +869,20 @@ INCONSISTENCIES: </body>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_JCOccLuLEeW0O4sLWQmi3g" name="take drone to base" type="__Re7ILuKEeW0O4sLWQmi3g" association="_JCNOULuLEeW0O4sLWQmi3g"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_JCOccbuLEeW0O4sLWQmi3g" name="system adm" type="_F4C_cLuLEeW0O4sLWQmi3g" association="_JCNOULuLEeW0O4sLWQmi3g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_BNiBALufEeW0Bbbf_g52ow" memberEnd="_BN83wLufEeW0Bbbf_g52ow _BN-s8LufEeW0Bbbf_g52ow">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BNousLufEeW0Bbbf_g52ow" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BNpVwLufEeW0Bbbf_g52ow" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_BN83wLufEeW0Bbbf_g52ow" name="stop command" type="_fEQOkLueEeW0Bbbf_g52ow" association="_BNiBALufEeW0Bbbf_g52ow"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_BN-s8LufEeW0Bbbf_g52ow" name="system adm" type="_y3gWoLueEeW0Bbbf_g52ow" association="_BNiBALufEeW0Bbbf_g52ow"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_CvzFALufEeW0Bbbf_g52ow" memberEnd="_Cv06MLufEeW0Bbbf_g52ow _Cv1hQLufEeW0Bbbf_g52ow">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Cv0TILufEeW0Bbbf_g52ow" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cv0TIbufEeW0Bbbf_g52ow" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Cv06MLufEeW0Bbbf_g52ow" name="stop command" type="_fEQOkLueEeW0Bbbf_g52ow" association="_CvzFALufEeW0Bbbf_g52ow"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_Cv1hQLufEeW0Bbbf_g52ow" name="system security" type="_vm_oILueEeW0Bbbf_g52ow" association="_CvzFALufEeW0Bbbf_g52ow"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
