@@ -49,7 +49,7 @@ INCONSISTENCIES</body>
           <body>RATIONALE&#xD;
 Diagram Name: BDD Navigation &amp; Location (F2) Diagram&#xD;
 Created by: MCS, 01/01/2016 (12:00)&#xD;
-Last modification by: MCS, 03/01/2016 (12:30)&#xD;
+Last modification by: MCS, 15/01/2016 (10:30)&#xD;
 Description: This diagram displays the main functions the system shall satisfy under F2 category.&#xD;
 Stakeholders:&#xD;
 Concerns satisfied: &#xD;
@@ -59,7 +59,7 @@ INCONSISTENCIES</body>
           <body>RATIONALE&#xD;
 Diagram Name: BDD Control (F3) Diagram&#xD;
 Created by: MCS, 01/01/2016 (12:00)&#xD;
-Last modification by: MCS, 03/01/2016 (12:30)&#xD;
+Last modification by: MCS, 15/01/2016 (1:53)&#xD;
 Description: This diagram displays the main functions the system shall satisfy under F3 category.&#xD;
 Stakeholders:&#xD;
 Concerns satisfied: &#xD;
@@ -77,10 +77,10 @@ INCONSISTENCIES</body>
         </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_bXw8QLQrEeWg6OidtfhE_g">
           <body>RATIONALE&#xD;
-Diagram Name: BDD Read and write data (F5) Diagram&#xD;
-Created by: MCS, 01/01/2016 (12:00)&#xD;
-Last modification by: MCS, 03/01/2016 (12:30)&#xD;
-Description: This diagram displays the main function the system shall satisfy under F5 category.&#xD;
+Diagram Name: BDD Data transfer within SOI (F5.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (13:00)&#xD;
+Last modification by: MCS, 15/01/2016 (13:16)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F5.2 category.&#xD;
 Stakeholders:&#xD;
 Concerns satisfied: &#xD;
 INCONSISTENCIES</body>
@@ -99,7 +99,7 @@ INCONSISTENCIES</body>
           <body>RATIONALE&#xD;
 Diagram Name: BDD Suply storage and internal support (F7) Diagram&#xD;
 Created by: MCS, 01/01/2016 (12:00)&#xD;
-Last modification by: MCS, 03/01/2016 (12:30)&#xD;
+Last modification by: MCS, 15/01/2016 (10:33)&#xD;
 Description: This diagram displays the main function the system shall satisfy under F7 category.&#xD;
 Stakeholders:&#xD;
 Concerns satisfied: &#xD;
@@ -115,6 +115,237 @@ Stakeholders:&#xD;
 Concerns satisfied: &#xD;
 INCONSISTENCIES</body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8XlUELsBEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Generate electric power (F1.1) Diagram&#xD;
+Created by: MCS, 14/01/2016 (22:00)&#xD;
+Last modification by: MCS, 14/01/2016 (23:36)&#xD;
+Description: This diagram displays the main functions the system shall satisfy under F1.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_-Gi60LsCEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Supply electric power (F1.2) Diagram&#xD;
+Created by: MCS, 14/01/2016 (22:00)&#xD;
+Last modification by: MCS, 14/01/2016 (23:40)&#xD;
+Description: This diagram displays the main functions the system shall satisfy under F1.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1AAXoLsDEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Supply kinetic power (F1.3) Diagram&#xD;
+Created by: MCS, 14/01/2016 (23:00)&#xD;
+Last modification by: MCS, 14/01/2016 (23:40)&#xD;
+Description: This diagram displays the main functions the system shall satisfy under F1.3 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_YAqWoLsHEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Localization (F2.2) Diagram&#xD;
+Created by: MCS, 14/01/2016 (23:00)&#xD;
+Last modification by: MCS, 14/01/2016 (23:47)&#xD;
+Description: This diagram displays the main functions the system shall satisfy under F2.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_DmkwsLsKEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Landmark extraction (F2.2.1.1) Diagram&#xD;
+Created by: MCS, 15/01/2016 (00:00)&#xD;
+Last modification by: MCS, 15/01/2016 (00:02)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.2.1.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_WaZmoLsLEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Data association (F2.2.1.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (00:03)&#xD;
+Last modification by: MCS, 15/01/2016 (00:03)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.2.1.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QIvwcLsNEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD State Estimation (F2.2.1.3.1) Diagram&#xD;
+Created by: MCS, 01/01/2016 (12:00)&#xD;
+Last modification by: MCS, 03/01/2016 (12:30)&#xD;
+Description: This diagram displays the main functions the system shall satisfy under F2.2.1.3.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_pC0oYLsNEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD State update (F2.2.1.3.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (00:06)&#xD;
+Last modification by: MCS, 15/01/2016 (00:06)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.2.1.3.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ifPxMLsOEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Landmark update (F2.2.1.3.3) Diagram&#xD;
+Created by: MCS, 15/01/2016 (00:37)&#xD;
+Last modification by: MCS, 15/01/2016 (00:30)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.2.1.3.3 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_OpNeELsSEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Navigation (F2.1) Diagram&#xD;
+Created by: MCS, 14/01/2016 (23:50)&#xD;
+Last modification by: MCS, 14/01/2016 (23:50)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_N6KlwLsdEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Move (F2.1.1) Diagram&#xD;
+Created by: MCS, 01/01/2016 (12:00)&#xD;
+Last modification by: MCS, 03/01/2016 (12:30)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_bU2MwLseEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Path Planning (F2.1.3) Diagram&#xD;
+Created by: MCS, 15/01/2016 (01:25)&#xD;
+Last modification by: MCS, 15/01/2016 (01:25)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.3 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_3EN20LseEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Obstacle avoidance (F2.1.4) Diagram&#xD;
+Created by: MCS, 15/01/2016 (01:28)&#xD;
+Last modification by: MCS, 15/01/2016 (01:28)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.4 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_NPBPoLsgEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Global Planning (F2.1.3.1) Diagram&#xD;
+Created by: MCS, 15/01/2016 (01:38)&#xD;
+Last modification by: MCS, 15/01/2016 (01:38)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.3.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_jDMtoLsgEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Local Planning (F2.1.3.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (01:40)&#xD;
+Last modification by: MCS, 15/01/2016 (01:40)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.3.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_CJ1ZALsiEeWa_JALbMdaSA">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Suply power source (F2.1.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (01:51)&#xD;
+Last modification by: MCS, 15/01/2016 (01:51)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F2.1.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_fcyLgLtrEeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Provide internal support (F7.3) Diagram&#xD;
+Created by: MCS, 15/01/2016 (10:30)&#xD;
+Last modification by: MCS, 15/01/2016 (10:46)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.3 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_xJ67oLtrEeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Suply physical storage (F7.1) Diagram&#xD;
+Created by: MCS, 15/01/2016 (10:30)&#xD;
+Last modification by: MCS, 15/01/2016 (10:43)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_JPf0gLtsEeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Provide data storage (F7.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (10:32)&#xD;
+Last modification by: MCS, 15/01/2016 (10:45)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_fDJxQLtwEeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Provide system maintenance (F7.3.1) Diagram&#xD;
+Created by: MCS, 15/01/2016 (11:12)&#xD;
+Last modification by: MCS, 15/01/2016 (11:12)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.3.1 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Qto84LtzEeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Provide documentation (F7.3.2) Diagram&#xD;
+Created by: MCS, 15/01/2016 (11:32)&#xD;
+Last modification by: MCS, 15/01/2016 (11:33)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.3.2 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_WFr4QLt2EeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Provide Project documentation  (F7.3.2.3) Diagram&#xD;
+Created by: MCS, 15/01/2016 (11:54)&#xD;
+Last modification by: MCS, 15/01/2016 (11:54)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F7.3.2.3 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_jTCUQLt_EeWW_9WJR1HJNQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Data transfer (F5) Diagram&#xD;
+Created by: MCS, 15/01/2016 (12:00)&#xD;
+Last modification by: MCS, 15/01/2016 (12:30)&#xD;
+Description: This diagram displays the main function the system shall satisfy under F5 category.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_TXZkILFREeWoUp-kx4A_qQ" name="Functional Model">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_l0cBYrQpEeWg6OidtfhE_g" name="navigation &amp; loclization_1" type="_j6CmsLQoEeWg6OidtfhE_g" aggregation="composite" association="_l0azQLQpEeWg6OidtfhE_g"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_mhyPkbQpEeWg6OidtfhE_g" name="suply power source_1" type="_gZPZcLQoEeWg6OidtfhE_g" aggregation="composite" association="_mhxogLQpEeWg6OidtfhE_g"/>
@@ -124,6 +355,7 @@ INCONSISTENCIES</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_oYX9wrQpEeWg6OidtfhE_g" name="system state monitorization_1" type="_IA8jcLQpEeWg6OidtfhE_g" aggregation="composite" association="_oYXWsLQpEeWg6OidtfhE_g"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_pQbnILQpEeWg6OidtfhE_g" name="supply storage and internal support_1" type="_St3ZILQpEeWg6OidtfhE_g" aggregation="composite" association="_pQaZALQpEeWg6OidtfhE_g"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_pwfnQLQpEeWg6OidtfhE_g" name="measure system performance_1" type="_Z0Q0ELQpEeWg6OidtfhE_g" aggregation="composite" association="_pweZILQpEeWg6OidtfhE_g"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0k0akbt-EeWW_9WJR1HJNQ" name="supply communication net_1" type="_qgRMcLt-EeWW_9WJR1HJNQ" aggregation="composite" association="_0kx-ULt-EeWW_9WJR1HJNQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_9FRP8LPvEeWg6OidtfhE_g" name="Functional View">
           <packagedElement xmi:type="uml:Model" xmi:id="_8pZv8LPGEeWg6OidtfhE_g" name="State Machines">
@@ -674,7 +906,7 @@ INCONSISTENCIES: </body>
         <packagedElement xmi:type="uml:Class" xmi:id="_4ezrQLQoEeWg6OidtfhE_g" name="User Guidance">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Scb1cLQqEeWg6OidtfhE_g" name="id: F4"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_AdLQALQpEeWg6OidtfhE_g" name="Read and write data">
+        <packagedElement xmi:type="uml:Class" xmi:id="_AdLQALQpEeWg6OidtfhE_g" name="Data transfer">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_UC9uYLQqEeWg6OidtfhE_g" name="id: F5"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_IA8jcLQpEeWg6OidtfhE_g" name="System state monitorization">
@@ -734,14 +966,1181 @@ INCONSISTENCIES: </body>
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_pwfnQbQpEeWg6OidtfhE_g" name="functional model_1" type="_TXZkILFREeWoUp-kx4A_qQ" association="_pweZILQpEeWg6OidtfhE_g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_qVFsoLQqEeWg6OidtfhE_g" name="Suply power source"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_6nyfELQqEeWg6OidtfhE_g" name="Navigation &amp; Location"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_F3zawLQrEeWg6OidtfhE_g" name="Control"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QhkOwLQrEeWg6OidtfhE_g" name="User Guidance"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_cECzcLQrEeWg6OidtfhE_g" name="Read and write data"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_pKxZILQrEeWg6OidtfhE_g" name="System state monitoring"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_2oHvELQrEeWg6OidtfhE_g" name="Suplly storage and internal support"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_CT9EELQsEeWg6OidtfhE_g" name="Measure system performance (F8)"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qVFsoLQqEeWg6OidtfhE_g" name="Suply power source">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sjtysLsBEeWa_JALbMdaSA" name="generate electric power_1" type="_CicwULsBEeWa_JALbMdaSA" aggregation="composite" association="_sjDrYLsBEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tQ6P4LsBEeWa_JALbMdaSA" name="supply electric power_1" type="_DHf-ILsBEeWa_JALbMdaSA" aggregation="composite" association="_tQ5BwLsBEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tsvQQbsBEeWa_JALbMdaSA" name="suply kinectic power_1" type="_D9ZrYLsBEeWa_JALbMdaSA" aggregation="composite" association="_tstbELsBEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6nyfELQqEeWg6OidtfhE_g" name="Navigation &amp; Location">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wKe9sLsEEeWa_JALbMdaSA" name="navigation_1" type="_mgQ7ILsEEeWa_JALbMdaSA" aggregation="composite" association="_wKdvkLsEEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wxrgkbsEEeWa_JALbMdaSA" name="localization_1" type="_m8XBQLsEEeWa_JALbMdaSA" aggregation="composite" association="_wxprYLsEEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IxRSULtqEeWW_9WJR1HJNQ" name="perception_1" type="_DG6XkLtqEeWW_9WJR1HJNQ" aggregation="composite" association="_IwtRoLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F3zawLQrEeWg6OidtfhE_g" name="Control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_CJrykLsjEeWa_JALbMdaSA" name="block1_1" type="_wJwpULsiEeWa_JALbMdaSA" aggregation="composite" association="_CJp9YLsjEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_CyxL0rsjEeWa_JALbMdaSA" name="block2_1" type="_wffBsLsiEeWa_JALbMdaSA" aggregation="composite" association="_CywkwLsjEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DLspMLsjEeWa_JALbMdaSA" name="block3_1" type="_wxILULsiEeWa_JALbMdaSA" aggregation="composite" association="_DLrbELsjEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_meyjYbsjEeWa_JALbMdaSA" name="temperature control_1" type="_xW5x4LsiEeWa_JALbMdaSA" aggregation="composite" association="_mex8ULsjEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ti44QrsjEeWa_JALbMdaSA" name="propellers control_1" type="_xB0SsLsiEeWa_JALbMdaSA" aggregation="composite" association="_ti4RMLsjEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GWGTMrskEeWa_JALbMdaSA" name="communication control_1" type="_YCLv4LsjEeWa_JALbMdaSA" aggregation="composite" association="_GWFsILskEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IZHT0rskEeWa_JALbMdaSA" name="sensors control_1" type="_6TIQkLsjEeWa_JALbMdaSA" aggregation="composite" association="_IZGswLskEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sH8u0bskEeWa_JALbMdaSA" name="hardware control_1" type="_QfaFgLskEeWa_JALbMdaSA" aggregation="composite" association="_sH7gsLskEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_s0wxgrskEeWa_JALbMdaSA" name="access control_1" type="_YUzUcLskEeWa_JALbMdaSA" aggregation="composite" association="_s0wKcLskEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QhkOwLQrEeWg6OidtfhE_g" name="User Guidance">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kqraEbsmEeWa_JALbMdaSA" name="show multilingual option_1" type="_1QRIwLslEeWa_JALbMdaSA" aggregation="composite" association="_kqo90LsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lTVVgLsmEeWa_JALbMdaSA" name="show system availability_1" type="_fz2qgLslEeWa_JALbMdaSA" aggregation="composite" association="_lTUHYLsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_l_ZKQLsmEeWa_JALbMdaSA" name="set mission_1" type="_SZBAkLsmEeWa_JALbMdaSA" aggregation="composite" association="_l_X8ILsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_m598IbsmEeWa_JALbMdaSA" name="confirm goal_1" type="_GXAnQLsmEeWa_JALbMdaSA" aggregation="composite" association="_m58uALsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_nY8-MLsmEeWa_JALbMdaSA" name="check if set to start_1" type="_kaQ08LslEeWa_JALbMdaSA" aggregation="composite" association="_nY7wELsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_oNQI8LsmEeWa_JALbMdaSA" name="show instructions_1" type="_nOVfELslEeWa_JALbMdaSA" aggregation="composite" association="_oNO60LsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_omCcYLsmEeWa_JALbMdaSA" name="check if following_1" type="_zFJVALslEeWa_JALbMdaSA" aggregation="composite" association="_omBOQLsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pD3A0rsmEeWa_JALbMdaSA" name="wait until confirmation_1" type="_Mp794LsmEeWa_JALbMdaSA" aggregation="composite" association="_pD2ZwLsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pjsXcrsmEeWa_JALbMdaSA" name="abort mission_1" type="_Q2oAwLsmEeWa_JALbMdaSA" aggregation="composite" association="_pjrwYLsmEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uZ1xkLsnEeWa_JALbMdaSA" name="interct with user_1" type="__YlAELsmEeWa_JALbMdaSA" aggregation="composite" association="_uZ0jcLsnEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cECzcLQrEeWg6OidtfhE_g" name="Data transfer within SOI">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Bbz7wrsqEeWa_JALbMdaSA" name="read/set operation parameters_1" type="_9Bnd0LsoEeWa_JALbMdaSA" aggregation="composite" association="_BbzUsLsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_CeSFYbsqEeWa_JALbMdaSA" name="identify and report internal errors_1" type="_zm0XULsoEeWa_JALbMdaSA" aggregation="composite" association="_CeQ3QLsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_C4YncrsqEeWa_JALbMdaSA" name="read internal temperatures_1" type="_57n9QLsoEeWa_JALbMdaSA" aggregation="composite" association="_C4YAYLsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DWdDgLsqEeWa_JALbMdaSA" name="read data about energy generation_1" type="_q-1N0LsoEeWa_JALbMdaSA" aggregation="composite" association="_DWb1YLsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DurWQbsqEeWa_JALbMdaSA" name="read/write commands_1" type="_Jy0fcLspEeWa_JALbMdaSA" aggregation="composite" association="_DuqIILsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EGwfErsqEeWa_JALbMdaSA" name="read user info_1" type="_gPwmkLspEeWa_JALbMdaSA" aggregation="composite" association="_EGv4ALsqEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EiGXQbsqEeWa_JALbMdaSA" name="read drones info_1" type="_hc7kULspEeWa_JALbMdaSA" aggregation="composite" association="_EiFwMLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pKxZILQrEeWg6OidtfhE_g" name="System state monitoring">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VDhFsrsrEeWa_JALbMdaSA" name="event reckoning_1" type="_FhKyILsrEeWa_JALbMdaSA" aggregation="composite" association="_VDgeoLsrEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VgOP0bsrEeWa_JALbMdaSA" name="check system state_1" type="_H4Ls0LsrEeWa_JALbMdaSA" aggregation="composite" association="_VgNowLsrEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2oHvELQrEeWg6OidtfhE_g" name="Suplly storage and internal support">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_35eZUbtqEeWW_9WJR1HJNQ" name="provide physical storage_1" type="_mJ1tcLsrEeWa_JALbMdaSA" aggregation="composite" association="_35dLMLtqEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4zLogbtqEeWW_9WJR1HJNQ" name="provide data storage_1" type="_rHMZoLtqEeWW_9WJR1HJNQ" aggregation="composite" association="_4zKaYLtqEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5QUQcLtqEeWW_9WJR1HJNQ" name="provide internal support_1" type="_tahHILtqEeWW_9WJR1HJNQ" aggregation="composite" association="_5QSbQLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CT9EELQsEeWg6OidtfhE_g" name="Measure system performance (F8)">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_w05Tkbt7EeWW_9WJR1HJNQ" name="measure app's kpi feature_1" type="_bTu4MLt7EeWW_9WJR1HJNQ" aggregation="composite" association="_w04FcLt7EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_40HXcLt8EeWW_9WJR1HJNQ" name="measure critical times_1" type="__yoToLt6EeWW_9WJR1HJNQ" aggregation="composite" association="_40GJULt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5OBsQbt8EeWW_9WJR1HJNQ" name="measure times drones could not return_1" type="_xwuCoLt7EeWW_9WJR1HJNQ" aggregation="composite" association="_5OBFMLt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5hSmgLt8EeWW_9WJR1HJNQ" name="measure user satisfaction_1" type="_DU1PELt7EeWW_9WJR1HJNQ" aggregation="composite" association="_5hRYYLt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_51et0Lt8EeWW_9WJR1HJNQ" name="mesure system's availability rate_1" type="_3UracLt7EeWW_9WJR1HJNQ" aggregation="composite" association="_51dfsLt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6NF8kLt8EeWW_9WJR1HJNQ" name="measure times of disconnections_1" type="_KhXRwLt8EeWW_9WJR1HJNQ" aggregation="composite" association="_6NEucLt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6nTMUrt8EeWW_9WJR1HJNQ" name="measure amount of completed mission_1" type="_E5gt4Lt7EeWW_9WJR1HJNQ" aggregation="composite" association="_6nSlQLt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7B1zQrt8EeWW_9WJR1HJNQ" name="measure traffic at the system_1" type="_Ok9DALt8EeWW_9WJR1HJNQ" aggregation="composite" association="_7B0lILt8EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7Tot4rt8EeWW_9WJR1HJNQ" name="measure user confirmation rate while navigation_1" type="_brn-ULt8EeWW_9WJR1HJNQ" aggregation="composite" association="_7ToG0Lt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CicwULsBEeWa_JALbMdaSA" name="Generate electric power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_C-gR0LsPEeWa_JALbMdaSA" name="id: F1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DHf-ILsBEeWa_JALbMdaSA" name="Supply electric power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GdBnILsPEeWa_JALbMdaSA" name="id: F1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_D9ZrYLsBEeWa_JALbMdaSA" name="Suply kinectic power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IczGgLsPEeWa_JALbMdaSA" name="id: F1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_sjDrYLsBEeWa_JALbMdaSA" memberEnd="_sjtysLsBEeWa_JALbMdaSA _sjvA0LsBEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sjeiILsBEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sjgXULsBEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_sjvA0LsBEeWa_JALbMdaSA" name="suply power source_1" type="_qVFsoLQqEeWg6OidtfhE_g" association="_sjDrYLsBEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tQ5BwLsBEeWa_JALbMdaSA" memberEnd="_tQ6P4LsBEeWa_JALbMdaSA _tQ628LsBEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tQ5o0LsBEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tQ5o0bsBEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tQ628LsBEeWa_JALbMdaSA" name="suply power source_1" type="_qVFsoLQqEeWg6OidtfhE_g" association="_tQ5BwLsBEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tstbELsBEeWa_JALbMdaSA" memberEnd="_tsvQQbsBEeWa_JALbMdaSA _tsv3ULsBEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tsupMLsBEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tsvQQLsBEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tsv3ULsBEeWa_JALbMdaSA" name="suply power source_1" type="_qVFsoLQqEeWg6OidtfhE_g" association="_tstbELsBEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Ni4ILsBEeWa_JALbMdaSA" name="Generate electric power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tCrKIrsCEeWa_JALbMdaSA" name="ac/cc convertion_1" type="_L3CrsLsCEeWa_JALbMdaSA" aggregation="composite" association="_tCp8ALsCEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uFwXwLsCEeWa_JALbMdaSA" name="generate constant tension values_1" type="_ekUDILsCEeWa_JALbMdaSA" aggregation="composite" association="_uFvJoLsCEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ukGgobsCEeWa_JALbMdaSA" name="conversition into different voltage levels_1" type="_lXiDYLsCEeWa_JALbMdaSA" aggregation="composite" association="_ukFSgLsCEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_L3CrsLsCEeWa_JALbMdaSA" name="AC/CC Convertion">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_f0toILsPEeWa_JALbMdaSA" name="id: F1.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ekUDILsCEeWa_JALbMdaSA" name="Generate constant tension values">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_g9EXULsPEeWa_JALbMdaSA" name="id: F1.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lXiDYLsCEeWa_JALbMdaSA" name="Convertion into different voltage levels">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hQzysLsPEeWa_JALbMdaSA" name="id: F1.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tCp8ALsCEeWa_JALbMdaSA" memberEnd="_tCrKIrsCEeWa_JALbMdaSA _tCrxMLsCEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tCrKILsCEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tCrKIbsCEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_tCrxMLsCEeWa_JALbMdaSA" name="generate electric power_1" type="_3Ni4ILsBEeWa_JALbMdaSA" association="_tCp8ALsCEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_uFvJoLsCEeWa_JALbMdaSA" memberEnd="_uFwXwLsCEeWa_JALbMdaSA _uFw-0LsCEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uFvwsLsCEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uFvwsbsCEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_uFw-0LsCEeWa_JALbMdaSA" name="generate electric power_1" type="_3Ni4ILsBEeWa_JALbMdaSA" association="_uFvJoLsCEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ukFSgLsCEeWa_JALbMdaSA" memberEnd="_ukGgobsCEeWa_JALbMdaSA _ukHHsLsCEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ukF5kLsCEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ukGgoLsCEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ukHHsLsCEeWa_JALbMdaSA" name="generate electric power_1" type="_3Ni4ILsBEeWa_JALbMdaSA" association="_ukFSgLsCEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7ggFoLsCEeWa_JALbMdaSA" name="Supply electric power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dhFPEbsDEeWa_JALbMdaSA" name="supply electricity to electronic components_1" type="_F4KdALsDEeWa_JALbMdaSA" aggregation="composite" association="_dhEA8LsDEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d6cxUbsDEeWa_JALbMdaSA" name="supply electricity to batteries_1" type="_GPTxsLsDEeWa_JALbMdaSA" aggregation="composite" association="_d6bjMLsDEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_eSHDYbsDEeWa_JALbMdaSA" name="maintain tension levels while supplying electricity_1" type="_GqOzILsDEeWa_JALbMdaSA" aggregation="composite" association="_eSF1QLsDEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F4KdALsDEeWa_JALbMdaSA" name="Supply electricity to electronic components">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5W1-kLsPEeWa_JALbMdaSA" name="id: F1.2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GPTxsLsDEeWa_JALbMdaSA" name="Supply electricity to batteries">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7AmxsLsPEeWa_JALbMdaSA" name="id: F1.2.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GqOzILsDEeWa_JALbMdaSA" name="Maintain tension levels while supplying electricity">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_85GkYLsPEeWa_JALbMdaSA" name="id: F1.2.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_dhEA8LsDEeWa_JALbMdaSA" memberEnd="_dhFPEbsDEeWa_JALbMdaSA _dhF2ILsDEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dhEoALsDEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dhFPELsDEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dhF2ILsDEeWa_JALbMdaSA" name="supply electric power_1" type="_7ggFoLsCEeWa_JALbMdaSA" association="_dhEA8LsDEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_d6bjMLsDEeWa_JALbMdaSA" memberEnd="_d6cxUbsDEeWa_JALbMdaSA _d6dYYLsDEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d6cKQLsDEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d6cxULsDEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_d6dYYLsDEeWa_JALbMdaSA" name="supply electric power_1" type="_7ggFoLsCEeWa_JALbMdaSA" association="_d6bjMLsDEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_eSF1QLsDEeWa_JALbMdaSA" memberEnd="_eSHDYbsDEeWa_JALbMdaSA _eSHDYrsDEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eSGcULsDEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eSHDYLsDEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_eSHDYrsDEeWa_JALbMdaSA" name="supply electric power_1" type="_7ggFoLsCEeWa_JALbMdaSA" association="_eSF1QLsDEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wBJQ8LsDEeWa_JALbMdaSA" name="Supply kinetic power">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_WIPj0bsEEeWa_JALbMdaSA" name="create thrust_1" type="_2G_04LsDEeWa_JALbMdaSA" aggregation="composite" association="_WINuoLsEEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_WtsaQrsEEeWa_JALbMdaSA" name="mantain thrust_1" type="_2c3-QLsDEeWa_JALbMdaSA" aggregation="composite" association="_WtrMILsEEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XKSPobsEEeWa_JALbMdaSA" name="create air ventilation current_1" type="_2u47ULsDEeWa_JALbMdaSA" aggregation="composite" association="_XKRBgLsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2G_04LsDEeWa_JALbMdaSA" name="Create thrust">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dtQW8LsQEeWa_JALbMdaSA" name="id: F1.3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2c3-QLsDEeWa_JALbMdaSA" name="Mantain thrust">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fL7UYLsQEeWa_JALbMdaSA" name="id: F1.3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_2u47ULsDEeWa_JALbMdaSA" name="Create air ventilation current">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gh2lgLsQEeWa_JALbMdaSA" name="id: F1.3.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WINuoLsEEeWa_JALbMdaSA" memberEnd="_WIPj0bsEEeWa_JALbMdaSA _WIQK4LsEEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WIO8wLsEEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WIPj0LsEEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_WIQK4LsEEeWa_JALbMdaSA" name="supply kinetic power_1" type="_wBJQ8LsDEeWa_JALbMdaSA" association="_WINuoLsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WtrMILsEEeWa_JALbMdaSA" memberEnd="_WtsaQrsEEeWa_JALbMdaSA _WttBULsEEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WtsaQLsEEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WtsaQbsEEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_WttBULsEEeWa_JALbMdaSA" name="supply kinetic power_1" type="_wBJQ8LsDEeWa_JALbMdaSA" association="_WtrMILsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_XKRBgLsEEeWa_JALbMdaSA" memberEnd="_XKSPobsEEeWa_JALbMdaSA _XKSPorsEEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XKRokLsEEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XKSPoLsEEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_XKSPorsEEeWa_JALbMdaSA" name="supply kinetic power_1" type="_wBJQ8LsDEeWa_JALbMdaSA" association="_XKRBgLsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mgQ7ILsEEeWa_JALbMdaSA" name="Navigation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qJt3oLsQEeWa_JALbMdaSA" name="id: F2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_m8XBQLsEEeWa_JALbMdaSA" name="Localization">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_sgXl8LsQEeWa_JALbMdaSA" name="id: F2.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_wKdvkLsEEeWa_JALbMdaSA" memberEnd="_wKe9sLsEEeWa_JALbMdaSA _wKe9sbsEEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wKeWoLsEEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wKeWobsEEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_wKe9sbsEEeWa_JALbMdaSA" name="navigation &amp; location_1" type="_6nyfELQqEeWg6OidtfhE_g" association="_wKdvkLsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_wxprYLsEEeWa_JALbMdaSA" memberEnd="_wxrgkbsEEeWa_JALbMdaSA _wxsHoLsEEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wxq5gLsEEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wxrgkLsEEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_wxsHoLsEEeWa_JALbMdaSA" name="navigation &amp; location_1" type="_6nyfELQqEeWg6OidtfhE_g" association="_wxprYLsEEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XLtEkLsHEeWa_JALbMdaSA" name="Localization">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d2azobsIEeWa_JALbMdaSA" name="slam_1" type="_eCjAkLsHEeWa_JALbMdaSA" aggregation="composite" association="_d2ZlgLsIEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_eCjAkLsHEeWa_JALbMdaSA" name="SLAM">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZOQVsbsIEeWa_JALbMdaSA" name="landmark extraction_1" type="_iahtcLsHEeWa_JALbMdaSA" aggregation="composite" association="_ZOPHkLsIEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_aU2KUbsIEeWa_JALbMdaSA" name="data association_1" type="_nKdnULsHEeWa_JALbMdaSA" aggregation="composite" association="_aU08MLsIEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RcqZ8LsOEeWa_JALbMdaSA" name="ekf_1" type="_IRTdoLsOEeWa_JALbMdaSA" aggregation="composite" association="_RcpL0LsOEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7udgwLsQEeWa_JALbMdaSA" name="id: F2.2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iahtcLsHEeWa_JALbMdaSA" name="Landmark extraction">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_B7-L4LsREeWa_JALbMdaSA" name="id: F2.2.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nKdnULsHEeWa_JALbMdaSA" name="Data association">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_D4XnILsREeWa_JALbMdaSA" name="id: F2.2.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_pj480LsHEeWa_JALbMdaSA" name="State estimation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_M4wCgLsREeWa_JALbMdaSA" name="id: F2.2.1.3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_r9nNQLsHEeWa_JALbMdaSA" name="State update">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PbRCkLsREeWa_JALbMdaSA" name="id: F2.2.1.3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uCOwYLsHEeWa_JALbMdaSA" name="Landmark update">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RDaFELsREeWa_JALbMdaSA" name="id: F2.2.1.3.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZOPHkLsIEeWa_JALbMdaSA" memberEnd="_ZOQVsbsIEeWa_JALbMdaSA _ZOUAELsIEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZOPuoLsIEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZOQVsLsIEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ZOUAELsIEeWa_JALbMdaSA" name="slam_1" type="_eCjAkLsHEeWa_JALbMdaSA" association="_ZOPHkLsIEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_aU08MLsIEeWa_JALbMdaSA" memberEnd="_aU2KUbsIEeWa_JALbMdaSA _aU2xYLsIEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aU1jQLsIEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aU2KULsIEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_aU2xYLsIEeWa_JALbMdaSA" name="slam_1" type="_eCjAkLsHEeWa_JALbMdaSA" association="_aU08MLsIEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_d2ZlgLsIEeWa_JALbMdaSA" memberEnd="_d2azobsIEeWa_JALbMdaSA _d2basLsIEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d2aMkLsIEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d2azoLsIEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_d2basLsIEeWa_JALbMdaSA" name="localization_1" type="_XLtEkLsHEeWa_JALbMdaSA" association="_d2ZlgLsIEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_BYdTULsKEeWa_JALbMdaSA" name="Landmark extraction">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_K9oBULsLEeWa_JALbMdaSA" name="landmark definition_1" type="_Jnvo8LsKEeWa_JALbMdaSA" aggregation="composite" association="_K9mMILsLEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Lq7zQbsLEeWa_JALbMdaSA" name="ransac_1" type="_LYTnoLsKEeWa_JALbMdaSA" aggregation="composite" association="_Lq6lILsLEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Jnvo8LsKEeWa_JALbMdaSA" name="Landmark definition">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4mcVALsSEeWa_JALbMdaSA" name="id: F2.2.1.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LYTnoLsKEeWa_JALbMdaSA" name="RANSAC">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6qpBYLsSEeWa_JALbMdaSA" name="id: F2.2.1.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_K9mMILsLEeWa_JALbMdaSA" memberEnd="_K9oBULsLEeWa_JALbMdaSA _K9oBUbsLEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K9naQLsLEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_K9naQbsLEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_K9oBUbsLEeWa_JALbMdaSA" name="landmark extraction_1" type="_BYdTULsKEeWa_JALbMdaSA" association="_K9mMILsLEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Lq6lILsLEeWa_JALbMdaSA" memberEnd="_Lq7zQbsLEeWa_JALbMdaSA _Lq8aULsLEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Lq7MMLsLEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lq7zQLsLEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Lq8aULsLEeWa_JALbMdaSA" name="landmark extraction_1" type="_BYdTULsKEeWa_JALbMdaSA" association="_Lq6lILsLEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VcsBMLsLEeWa_JALbMdaSA" name="Data association"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Qp4HkLsNEeWa_JALbMdaSA" name="State Estimation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qCumMLsNEeWa_JALbMdaSA" name="State update"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IRTdoLsOEeWa_JALbMdaSA" name="EKF">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_R_L4MrsOEeWa_JALbMdaSA" name="state estimation_1" type="_pj480LsHEeWa_JALbMdaSA" aggregation="composite" association="_R_LRILsOEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SjRcsrsOEeWa_JALbMdaSA" name="state update_1" type="_r9nNQLsHEeWa_JALbMdaSA" aggregation="composite" association="_SjQ1oLsOEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TBVRsbsOEeWa_JALbMdaSA" name="landmark update_1" type="_uCOwYLsHEeWa_JALbMdaSA" aggregation="composite" association="_TBUDkLsOEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_HNK_wLsREeWa_JALbMdaSA" name="id: F2.2.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_RcpL0LsOEeWa_JALbMdaSA" memberEnd="_RcqZ8LsOEeWa_JALbMdaSA _RcqZ8bsOEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Rcpy4LsOEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rcpy4bsOEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_RcqZ8bsOEeWa_JALbMdaSA" name="slam_1" type="_eCjAkLsHEeWa_JALbMdaSA" association="_RcpL0LsOEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_R_LRILsOEeWa_JALbMdaSA" memberEnd="_R_L4MrsOEeWa_JALbMdaSA _R_MfQLsOEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R_L4MLsOEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R_L4MbsOEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_R_MfQLsOEeWa_JALbMdaSA" name="ekf_1" type="_IRTdoLsOEeWa_JALbMdaSA" association="_R_LRILsOEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_SjQ1oLsOEeWa_JALbMdaSA" memberEnd="_SjRcsrsOEeWa_JALbMdaSA _SjSDwLsOEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SjRcsLsOEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SjRcsbsOEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_SjSDwLsOEeWa_JALbMdaSA" name="ekf_1" type="_IRTdoLsOEeWa_JALbMdaSA" association="_SjQ1oLsOEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_TBUDkLsOEeWa_JALbMdaSA" memberEnd="_TBVRsbsOEeWa_JALbMdaSA _TBV4wLsOEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TBUqoLsOEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TBVRsLsOEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_TBV4wLsOEeWa_JALbMdaSA" name="ekf_1" type="_IRTdoLsOEeWa_JALbMdaSA" association="_TBUDkLsOEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jEqLYLsOEeWa_JALbMdaSA" name="Landmark update"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PXwmILsSEeWa_JALbMdaSA" name="Navigation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_yLjJoLscEeWa_JALbMdaSA" name="move_1" type="_HmNJ0LscEeWa_JALbMdaSA" aggregation="composite" association="_yLh7gLscEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y4txoLscEeWa_JALbMdaSA" name="set goal_1" type="_rtuKkLscEeWa_JALbMdaSA" aggregation="composite" association="_y4sjgLscEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zZvbELscEeWa_JALbMdaSA" name="path planning_1" type="_IEgPYLscEeWa_JALbMdaSA" aggregation="composite" association="_zZuM8LscEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_z3K98rscEeWa_JALbMdaSA" name="obstacle avoidance_1" type="_Icss8LscEeWa_JALbMdaSA" aggregation="composite" association="_z3KW4LscEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HmNJ0LscEeWa_JALbMdaSA" name="Move">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7KCHkLscEeWa_JALbMdaSA" name="id: F2.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IEgPYLscEeWa_JALbMdaSA" name="Path Planning">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="__zvdoLscEeWa_JALbMdaSA" name="ID: F2.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Icss8LscEeWa_JALbMdaSA" name="Obstacle Avoidance">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Bf9u4LsdEeWa_JALbMdaSA" name="id: F2.1.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rtuKkLscEeWa_JALbMdaSA" name="Set Global Goal">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9r8qsLscEeWa_JALbMdaSA" name="id: F2.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_yLh7gLscEeWa_JALbMdaSA" memberEnd="_yLjJoLscEeWa_JALbMdaSA _yLjJobscEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yLiikLscEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yLiikbscEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_yLjJobscEeWa_JALbMdaSA" name="navigation_1" type="_PXwmILsSEeWa_JALbMdaSA" association="_yLh7gLscEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_y4sjgLscEeWa_JALbMdaSA" memberEnd="_y4txoLscEeWa_JALbMdaSA _y4txobscEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4tKkLscEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y4tKkbscEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_y4txobscEeWa_JALbMdaSA" name="navigation_1" type="_PXwmILsSEeWa_JALbMdaSA" association="_y4sjgLscEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_zZuM8LscEeWa_JALbMdaSA" memberEnd="_zZvbELscEeWa_JALbMdaSA _zZvbEbscEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zZu0ALscEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZu0AbscEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_zZvbEbscEeWa_JALbMdaSA" name="navigation_1" type="_PXwmILsSEeWa_JALbMdaSA" association="_zZuM8LscEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_z3KW4LscEeWa_JALbMdaSA" memberEnd="_z3K98rscEeWa_JALbMdaSA _z3LlALscEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z3K98LscEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_z3K98bscEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_z3LlALscEeWa_JALbMdaSA" name="navigation_1" type="_PXwmILsSEeWa_JALbMdaSA" association="_z3KW4LscEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_LT-moLsdEeWa_JALbMdaSA" name="Move">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_t1bogrsdEeWa_JALbMdaSA" name="roll_1" type="_kvOR8LsdEeWa_JALbMdaSA" aggregation="composite" association="_t1bBcLsdEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uaOXorsdEeWa_JALbMdaSA" name="yaw_1" type="_lMOXALsdEeWa_JALbMdaSA" aggregation="composite" association="_uaNwkLsdEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_u4qAEbsdEeWa_JALbMdaSA" name="pitch_1" type="_lk_cULsdEeWa_JALbMdaSA" aggregation="composite" association="_u4pZALsdEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kvOR8LsdEeWa_JALbMdaSA" name="Roll">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4FI9wLsdEeWa_JALbMdaSA" name="id: F2.1.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lMOXALsdEeWa_JALbMdaSA" name="Yaw">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6evSYLsdEeWa_JALbMdaSA" name="id: F2.1.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lk_cULsdEeWa_JALbMdaSA" name="Pitch">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7_-boLsdEeWa_JALbMdaSA" name="id: F2.1.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_t1bBcLsdEeWa_JALbMdaSA" memberEnd="_t1bogrsdEeWa_JALbMdaSA _t1cPkLsdEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t1bogLsdEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t1bogbsdEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_t1cPkLsdEeWa_JALbMdaSA" name="move_1" type="_LT-moLsdEeWa_JALbMdaSA" association="_t1bBcLsdEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_uaNwkLsdEeWa_JALbMdaSA" memberEnd="_uaOXorsdEeWa_JALbMdaSA _uaO-sLsdEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uaOXoLsdEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uaOXobsdEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_uaO-sLsdEeWa_JALbMdaSA" name="move_1" type="_LT-moLsdEeWa_JALbMdaSA" association="_uaNwkLsdEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_u4pZALsdEeWa_JALbMdaSA" memberEnd="_u4qAEbsdEeWa_JALbMdaSA _u4qAErsdEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4pZAbsdEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4qAELsdEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_u4qAErsdEeWa_JALbMdaSA" name="move_1" type="_LT-moLsdEeWa_JALbMdaSA" association="_u4pZALsdEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jXtP8LseEeWa_JALbMdaSA" name="Path Planning">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_w7WlsrsfEeWa_JALbMdaSA" name="global planning_1" type="_rQUVgLsfEeWa_JALbMdaSA" aggregation="composite" association="_w7V-oLsfEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xbhTgrsfEeWa_JALbMdaSA" name="local planning_1" type="_tRUj8LsfEeWa_JALbMdaSA" aggregation="composite" association="_xbgscLsfEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_93wAILseEeWa_JALbMdaSA" name="Obstacle avoidance">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_i-Qt0bshEeWa_JALbMdaSA" name="detect an obstacle_1" type="_5zkuILsgEeWa_JALbMdaSA" aggregation="composite" association="_i-PfsLshEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_jbwiIrshEeWa_JALbMdaSA" name="evaluate avoidability_1" type="_ACGF4LshEeWa_JALbMdaSA" aggregation="composite" association="_jbv7ELshEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_j4ao8bshEeWa_JALbMdaSA" name="modify local route to avoid an obstacle_1" type="_7rzbELsgEeWa_JALbMdaSA" aggregation="composite" association="_j4Za0LshEeWa_JALbMdaSA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kT65MbshEeWa_JALbMdaSA" name="maintain integrity_1" type="_XEmYMLshEeWa_JALbMdaSA" aggregation="composite" association="_kT5rELshEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rQUVgLsfEeWa_JALbMdaSA" name="Global planning">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AV1WsLsgEeWa_JALbMdaSA" name="id: F2.1.3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tRUj8LsfEeWa_JALbMdaSA" name="Local Planning">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_CyaG0LsgEeWa_JALbMdaSA" name="id:F2.1.3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_w7V-oLsfEeWa_JALbMdaSA" memberEnd="_w7WlsrsfEeWa_JALbMdaSA _w7XMwLsfEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w7WlsLsfEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w7WlsbsfEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_w7XMwLsfEeWa_JALbMdaSA" name="path planning_1" type="_jXtP8LseEeWa_JALbMdaSA" association="_w7V-oLsfEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_xbgscLsfEeWa_JALbMdaSA" memberEnd="_xbhTgrsfEeWa_JALbMdaSA _xbhTg7sfEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xbhTgLsfEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xbhTgbsfEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_xbhTg7sfEeWa_JALbMdaSA" name="path planning_1" type="_jXtP8LseEeWa_JALbMdaSA" association="_xbgscLsfEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VI4u4LsgEeWa_JALbMdaSA" name="Global Planning"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_sryYgLsgEeWa_JALbMdaSA" name="Local Planning"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_5zkuILsgEeWa_JALbMdaSA" name="Detect an obstacle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OribgLshEeWa_JALbMdaSA" name="id: F2.1.4.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7rzbELsgEeWa_JALbMdaSA" name="Modify local route to avoid an obstacle">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SS3ukLshEeWa_JALbMdaSA" name="id: F2.1.4.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ACGF4LshEeWa_JALbMdaSA" name="Evaluate avoidability">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QfynYLshEeWa_JALbMdaSA" name="id: F2.1.4.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XEmYMLshEeWa_JALbMdaSA" name="Maintain integrity">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dIsooLshEeWa_JALbMdaSA" name="id: F2.1.4.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_i-PfsLshEeWa_JALbMdaSA" memberEnd="_i-Qt0bshEeWa_JALbMdaSA _i-Qt0rshEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i-QGwLshEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i-Qt0LshEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_i-Qt0rshEeWa_JALbMdaSA" name="obstacle avoidance_1" type="_93wAILseEeWa_JALbMdaSA" association="_i-PfsLshEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_jbv7ELshEeWa_JALbMdaSA" memberEnd="_jbwiIrshEeWa_JALbMdaSA _jbxJMLshEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jbwiILshEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jbwiIbshEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jbxJMLshEeWa_JALbMdaSA" name="obstacle avoidance_1" type="_93wAILseEeWa_JALbMdaSA" association="_jbv7ELshEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_j4Za0LshEeWa_JALbMdaSA" memberEnd="_j4ao8bshEeWa_JALbMdaSA _j4bQALshEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j4aB4LshEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j4ao8LshEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_j4bQALshEeWa_JALbMdaSA" name="obstacle avoidance_1" type="_93wAILseEeWa_JALbMdaSA" association="_j4Za0LshEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_kT5rELshEeWa_JALbMdaSA" memberEnd="_kT65MbshEeWa_JALbMdaSA _kT8HULshEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kT6SILshEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kT65MLshEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_kT8HULshEeWa_JALbMdaSA" name="obstacle avoidance_1" type="_93wAILseEeWa_JALbMdaSA" association="_kT5rELshEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_7k7hkLshEeWa_JALbMdaSA" name="Set Global Goal"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wJwpULsiEeWa_JALbMdaSA" name="Energy control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cUSo0LskEeWa_JALbMdaSA" name="id: F3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wffBsLsiEeWa_JALbMdaSA" name="Navigation control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hPILILskEeWa_JALbMdaSA" name="id: F3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_wxILULsiEeWa_JALbMdaSA" name="Localization Control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fRKCkLskEeWa_JALbMdaSA" name="id: F3.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xB0SsLsiEeWa_JALbMdaSA" name="Propellers control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_j5xzgLskEeWa_JALbMdaSA" name="id: F3.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xW5x4LsiEeWa_JALbMdaSA" name="Temperature control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iohnALskEeWa_JALbMdaSA" name="id: F3.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_CJp9YLsjEeWa_JALbMdaSA" memberEnd="_CJrykLsjEeWa_JALbMdaSA _CJsZoLsjEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CJqkcLsjEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CJqkcbsjEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_CJsZoLsjEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_CJp9YLsjEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_CywkwLsjEeWa_JALbMdaSA" memberEnd="_CyxL0rsjEeWa_JALbMdaSA _Cyxy4LsjEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CyxL0LsjEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CyxL0bsjEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Cyxy4LsjEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_CywkwLsjEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_DLrbELsjEeWa_JALbMdaSA" memberEnd="_DLspMLsjEeWa_JALbMdaSA _DLspMbsjEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DLsCILsjEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DLsCIbsjEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DLspMbsjEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_DLrbELsjEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YCLv4LsjEeWa_JALbMdaSA" name="Communication control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_k-v3gLskEeWa_JALbMdaSA" name="id: F3.6"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_mex8ULsjEeWa_JALbMdaSA" memberEnd="_meyjYbsjEeWa_JALbMdaSA _mezKcLsjEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mex8UbsjEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_meyjYLsjEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_mezKcLsjEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_mex8ULsjEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ti4RMLsjEeWa_JALbMdaSA" memberEnd="_ti44QrsjEeWa_JALbMdaSA _ti5fULsjEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ti44QLsjEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ti44QbsjEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ti5fULsjEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_ti4RMLsjEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6TIQkLsjEeWa_JALbMdaSA" name="Sensors Control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_m0obELskEeWa_JALbMdaSA" name="id: F3.7"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GWFsILskEeWa_JALbMdaSA" memberEnd="_GWGTMrskEeWa_JALbMdaSA _GWG6QLskEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GWGTMLskEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GWGTMbskEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GWG6QLskEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_GWFsILskEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_IZGswLskEeWa_JALbMdaSA" memberEnd="_IZHT0rskEeWa_JALbMdaSA _IZH64LskEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZHT0LskEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZHT0bskEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IZH64LskEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_IZGswLskEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QfaFgLskEeWa_JALbMdaSA" name="Hardware control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pIde4LskEeWa_JALbMdaSA" name="id: F3.8"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YUzUcLskEeWa_JALbMdaSA" name="Access control">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qciV4LskEeWa_JALbMdaSA" name="id: F3.9"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_sH7gsLskEeWa_JALbMdaSA" memberEnd="_sH8u0bskEeWa_JALbMdaSA _sH8u0rskEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sH8HwLskEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sH8u0LskEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_sH8u0rskEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_sH7gsLskEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_s0wKcLskEeWa_JALbMdaSA" memberEnd="_s0wxgrskEeWa_JALbMdaSA _s0xYkLskEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s0wxgLskEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s0wxgbskEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_s0xYkLskEeWa_JALbMdaSA" name="control_1" type="_F3zawLQrEeWg6OidtfhE_g" association="_s0wKcLskEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fz2qgLslEeWa_JALbMdaSA" name="Show system availability">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_H16YwLsnEeWa_JALbMdaSA" name="id: F4.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kaQ08LslEeWa_JALbMdaSA" name="Check if set to start">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_L3gl8LsnEeWa_JALbMdaSA" name="id: F4.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nOVfELslEeWa_JALbMdaSA" name="Show instructions">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Pfc9ALsnEeWa_JALbMdaSA" name="id: F4.6"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zFJVALslEeWa_JALbMdaSA" name="Check if following">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_RfOcYLsnEeWa_JALbMdaSA" name="id: F4.7"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1QRIwLslEeWa_JALbMdaSA" name="Show Multilingual option">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EWedcLsnEeWa_JALbMdaSA" name="id: F4.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GXAnQLsmEeWa_JALbMdaSA" name="Confirm goal">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_K0axQLsnEeWa_JALbMdaSA" name="id: F4.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Mp794LsmEeWa_JALbMdaSA" name="Wait until confirmation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TDNXoLsnEeWa_JALbMdaSA" name="id: F4.8"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Q2oAwLsmEeWa_JALbMdaSA" name="Abort mission">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_T_n8kLsnEeWa_JALbMdaSA" name="id: F4.9"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SZBAkLsmEeWa_JALbMdaSA" name="Set Mission">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_I_EZMLsnEeWa_JALbMdaSA" name="id: F4.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_kqo90LsmEeWa_JALbMdaSA" memberEnd="_kqraEbsmEeWa_JALbMdaSA _kqsBILsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kqqzALsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqraELsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_kqsBILsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_kqo90LsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_lTUHYLsmEeWa_JALbMdaSA" memberEnd="_lTVVgLsmEeWa_JALbMdaSA _lTVVgbsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lTUucLsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lTUucbsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_lTVVgbsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_lTUHYLsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_l_X8ILsmEeWa_JALbMdaSA" memberEnd="_l_ZKQLsmEeWa_JALbMdaSA _l_ZKQbsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l_YjMLsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_l_YjMbsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_l_ZKQbsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_l_X8ILsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_m58uALsmEeWa_JALbMdaSA" memberEnd="_m598IbsmEeWa_JALbMdaSA _m598IrsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m59VELsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m598ILsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_m598IrsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_m58uALsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nY7wELsmEeWa_JALbMdaSA" memberEnd="_nY8-MLsmEeWa_JALbMdaSA _nY8-MbsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nY8XILsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nY8XIbsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_nY8-MbsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_nY7wELsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_oNO60LsmEeWa_JALbMdaSA" memberEnd="_oNQI8LsmEeWa_JALbMdaSA _oNQI8bsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oNPh4LsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oNPh4bsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_oNQI8bsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_oNO60LsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_omBOQLsmEeWa_JALbMdaSA" memberEnd="_omCcYLsmEeWa_JALbMdaSA _omCcYbsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_omB1ULsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_omB1UbsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_omCcYbsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_omBOQLsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_pD2ZwLsmEeWa_JALbMdaSA" memberEnd="_pD3A0rsmEeWa_JALbMdaSA _pD3n4LsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pD3A0LsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pD3A0bsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pD3n4LsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_pD2ZwLsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_pjrwYLsmEeWa_JALbMdaSA" memberEnd="_pjsXcrsmEeWa_JALbMdaSA _pjs-gLsmEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pjsXcLsmEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pjsXcbsmEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pjs-gLsmEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_pjrwYLsmEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__YlAELsmEeWa_JALbMdaSA" name="Interct with user">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VPea4LsnEeWa_JALbMdaSA" name="id: F4.10"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_uZ0jcLsnEeWa_JALbMdaSA" memberEnd="_uZ1xkLsnEeWa_JALbMdaSA _uZ1xkbsnEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uZ1KgLsnEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uZ1KgbsnEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_uZ1xkbsnEeWa_JALbMdaSA" name="user guidance_1" type="_QhkOwLQrEeWg6OidtfhE_g" association="_uZ0jcLsnEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_q-1N0LsoEeWa_JALbMdaSA" name="Read/Write data about energy generation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ch-30LsqEeWa_JALbMdaSA" name="id: F5.2.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zm0XULsoEeWa_JALbMdaSA" name="Identify and report internal errors">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZJpqELsqEeWa_JALbMdaSA" name="id: F5.2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_57n9QLsoEeWa_JALbMdaSA" name="Read internal temperatures">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bASbkLsqEeWa_JALbMdaSA" name="id: F5.2.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_9Bnd0LsoEeWa_JALbMdaSA" name="Read/Set operation parameters">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_aGDA4LsqEeWa_JALbMdaSA" name="id: F5.2.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Jy0fcLspEeWa_JALbMdaSA" name="Read/Write Commands">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_d_mFULsqEeWa_JALbMdaSA" name="id: F5.2.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_gPwmkLspEeWa_JALbMdaSA" name="Record internal data">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fVqgYLsqEeWa_JALbMdaSA" name="id: F5.2.6"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hc7kULspEeWa_JALbMdaSA" name="Read/Set drones info">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_g_wqsLsqEeWa_JALbMdaSA" name="id: F5.2.7"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_BbzUsLsqEeWa_JALbMdaSA" memberEnd="_Bbz7wrsqEeWa_JALbMdaSA _Bb0i0LsqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bbz7wLsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Bbz7wbsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Bb0i0LsqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_BbzUsLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_CeQ3QLsqEeWa_JALbMdaSA" memberEnd="_CeSFYbsqEeWa_JALbMdaSA _CeSscLsqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CeReULsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CeSFYLsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_CeSscLsqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_CeQ3QLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_C4YAYLsqEeWa_JALbMdaSA" memberEnd="_C4YncrsqEeWa_JALbMdaSA _C4Ync7sqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C4YncLsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C4YncbsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_C4Ync7sqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_C4YAYLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_DWb1YLsqEeWa_JALbMdaSA" memberEnd="_DWdDgLsqEeWa_JALbMdaSA _DWdDgbsqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DWcccLsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DWcccbsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DWdDgbsqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_DWb1YLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_DuqIILsqEeWa_JALbMdaSA" memberEnd="_DurWQbsqEeWa_JALbMdaSA _Dur9ULsqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DuqvMLsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DurWQLsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Dur9ULsqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_DuqIILsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_EGv4ALsqEeWa_JALbMdaSA" memberEnd="_EGwfErsqEeWa_JALbMdaSA _EGwfE7sqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EGwfELsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EGwfEbsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_EGwfE7sqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_EGv4ALsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_EiFwMLsqEeWa_JALbMdaSA" memberEnd="_EiGXQbsqEeWa_JALbMdaSA _EiGXQrsqEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EiFwMbsqEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EiGXQLsqEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_EiGXQrsqEeWa_JALbMdaSA" name="read and write data_1" type="_cECzcLQrEeWg6OidtfhE_g" association="_EiFwMLsqEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FhKyILsrEeWa_JALbMdaSA" name="Event Reckoning">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_P6_ssLsrEeWa_JALbMdaSA" name="id: F6.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_H4Ls0LsrEeWa_JALbMdaSA" name="Check system state">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Q-NdMLsrEeWa_JALbMdaSA" name="id: F6.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VDgeoLsrEeWa_JALbMdaSA" memberEnd="_VDhFsrsrEeWa_JALbMdaSA _VDhswLsrEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VDhFsLsrEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VDhFsbsrEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VDhswLsrEeWa_JALbMdaSA" name="system state monitoring_1" type="_pKxZILQrEeWg6OidtfhE_g" association="_VDgeoLsrEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VgNowLsrEeWa_JALbMdaSA" memberEnd="_VgOP0bsrEeWa_JALbMdaSA _VgO24LsrEeWa_JALbMdaSA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VgNowbsrEeWa_JALbMdaSA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VgOP0LsrEeWa_JALbMdaSA" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VgO24LsrEeWa_JALbMdaSA" name="system state monitoring_1" type="_pKxZILQrEeWg6OidtfhE_g" association="_VgNowLsrEeWa_JALbMdaSA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mJ1tcLsrEeWa_JALbMdaSA" name="Provide physical storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AN8J4LtrEeWW_9WJR1HJNQ" name="id: F7.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DG6XkLtqEeWW_9WJR1HJNQ" name="Perception">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_N3m6ALtqEeWW_9WJR1HJNQ" name="id: F2.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_IwtRoLtqEeWW_9WJR1HJNQ" memberEnd="_IxRSULtqEeWW_9WJR1HJNQ _IxSgcLtqEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IxFFELtqEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IxFsILtqEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IxSgcLtqEeWW_9WJR1HJNQ" name="navigation &amp; location_1" type="_6nyfELQqEeWg6OidtfhE_g" association="_IwtRoLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rHMZoLtqEeWW_9WJR1HJNQ" name="Provide data storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_F6pOALtrEeWW_9WJR1HJNQ" name="id: F7.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_tahHILtqEeWW_9WJR1HJNQ" name="Provide internal support">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_HQiC4LtrEeWW_9WJR1HJNQ" name="id: F7.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_35dLMLtqEeWW_9WJR1HJNQ" memberEnd="_35eZUbtqEeWW_9WJR1HJNQ _35fAYLtqEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_35dyQLtqEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_35eZULtqEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_35fAYLtqEeWW_9WJR1HJNQ" name="suplly storage and internal support_1" type="_2oHvELQrEeWg6OidtfhE_g" association="_35dLMLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_4zKaYLtqEeWW_9WJR1HJNQ" memberEnd="_4zLogbtqEeWW_9WJR1HJNQ _4zLogrtqEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4zLBcLtqEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4zLogLtqEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_4zLogrtqEeWW_9WJR1HJNQ" name="suplly storage and internal support_1" type="_2oHvELQrEeWg6OidtfhE_g" association="_4zKaYLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5QSbQLtqEeWW_9WJR1HJNQ" memberEnd="_5QUQcLtqEeWW_9WJR1HJNQ _5QUQcbtqEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5QTpYLtqEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5QTpYbtqEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5QUQcbtqEeWW_9WJR1HJNQ" name="suplly storage and internal support_1" type="_2oHvELQrEeWg6OidtfhE_g" association="_5QSbQLtqEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_g3JQsLtrEeWW_9WJR1HJNQ" name="Provide internal support">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AXmp8LtwEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_4nwpYLtvEeWW_9WJR1HJNQ" aggregation="composite" association="_AXf8QLtwEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AxJyYLtwEeWW_9WJR1HJNQ" name="provide documentation_1" type="_mA4N0LtvEeWW_9WJR1HJNQ" aggregation="composite" association="_AxH9MLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_x_mmcLtrEeWW_9WJR1HJNQ" name="Provide physical storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pK92IbttEeWW_9WJR1HJNQ" name="drones storage_1" type="_IZaroLttEeWW_9WJR1HJNQ" aggregation="composite" association="_pK8oALttEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qBRMAbttEeWW_9WJR1HJNQ" name="server storage_1" type="_QfZ7ULttEeWW_9WJR1HJNQ" aggregation="composite" association="_qBP94LttEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qbbYcLttEeWW_9WJR1HJNQ" name="document storage_1" type="_KiTqwLttEeWW_9WJR1HJNQ" aggregation="composite" association="_qbZjQLttEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_q0O6ALttEeWW_9WJR1HJNQ" name="replacements storage_1" type="_fy23QLttEeWW_9WJR1HJNQ" aggregation="composite" association="_q0Nr4LttEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KP_oMLtsEeWW_9WJR1HJNQ" name="Provide data storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YLWd4btuEeWW_9WJR1HJNQ" name="app hosting_1" type="_QiTB0LtuEeWW_9WJR1HJNQ" aggregation="composite" association="_YLVPwLtuEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YnJpELtuEeWW_9WJR1HJNQ" name="data storage_1" type="_SPtl4LtuEeWW_9WJR1HJNQ" aggregation="composite" association="_YnIa8LtuEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IZaroLttEeWW_9WJR1HJNQ" name="Drones storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wY41YLttEeWW_9WJR1HJNQ" name="id: F7.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KiTqwLttEeWW_9WJR1HJNQ" name="Document storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_xwx1YLttEeWW_9WJR1HJNQ" name="id: F7.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QfZ7ULttEeWW_9WJR1HJNQ" name="Server storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zUgR8LttEeWW_9WJR1HJNQ" name="id: F7.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_fy23QLttEeWW_9WJR1HJNQ" name="Replacements storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0oIdALttEeWW_9WJR1HJNQ" name="id: F7.1.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_pK8oALttEeWW_9WJR1HJNQ" memberEnd="_pK92IbttEeWW_9WJR1HJNQ _pK-dMLttEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pK9PELttEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pK92ILttEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pK-dMLttEeWW_9WJR1HJNQ" name="provide physical storage_1" type="_x_mmcLtrEeWW_9WJR1HJNQ" association="_pK8oALttEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qBP94LttEeWW_9WJR1HJNQ" memberEnd="_qBRMAbttEeWW_9WJR1HJNQ _qBRzELttEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qBQk8LttEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qBRMALttEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_qBRzELttEeWW_9WJR1HJNQ" name="provide physical storage_1" type="_x_mmcLtrEeWW_9WJR1HJNQ" association="_qBP94LttEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qbZjQLttEeWW_9WJR1HJNQ" memberEnd="_qbbYcLttEeWW_9WJR1HJNQ _qbbYcbttEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qbaxYLttEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qbaxYbttEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_qbbYcbttEeWW_9WJR1HJNQ" name="provide physical storage_1" type="_x_mmcLtrEeWW_9WJR1HJNQ" association="_qbZjQLttEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_q0Nr4LttEeWW_9WJR1HJNQ" memberEnd="_q0O6ALttEeWW_9WJR1HJNQ _q0O6AbttEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q0OS8LttEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q0OS8bttEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_q0O6AbttEeWW_9WJR1HJNQ" name="provide physical storage_1" type="_x_mmcLtrEeWW_9WJR1HJNQ" association="_q0Nr4LttEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QiTB0LtuEeWW_9WJR1HJNQ" name="App Hosting">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_b-95cLtuEeWW_9WJR1HJNQ" name="id: F7.2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SPtl4LtuEeWW_9WJR1HJNQ" name="Data storage">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dvBh0LtuEeWW_9WJR1HJNQ" name="id: F7.2.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_YLVPwLtuEeWW_9WJR1HJNQ" memberEnd="_YLWd4btuEeWW_9WJR1HJNQ _YLXE8LtuEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YLV20LtuEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YLWd4LtuEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_YLXE8LtuEeWW_9WJR1HJNQ" name="provide data storage_1" type="_KP_oMLtsEeWW_9WJR1HJNQ" association="_YLVPwLtuEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_YnIa8LtuEeWW_9WJR1HJNQ" memberEnd="_YnJpELtuEeWW_9WJR1HJNQ _YnJpEbtuEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YnJCALtuEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YnJCAbtuEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_YnJpEbtuEeWW_9WJR1HJNQ" name="provide data storage_1" type="_KP_oMLtsEeWW_9WJR1HJNQ" association="_YnIa8LtuEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_dnWXELtvEeWW_9WJR1HJNQ" name="Fix physical damage"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mA4N0LtvEeWW_9WJR1HJNQ" name="Provide documentation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IKae8LtwEeWW_9WJR1HJNQ" name="id: F7.3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_4nwpYLtvEeWW_9WJR1HJNQ" name="Provide system maintenance">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GStWcLtwEeWW_9WJR1HJNQ" name="id: F7.3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_AXf8QLtwEeWW_9WJR1HJNQ" memberEnd="_AXmp8LtwEeWW_9WJR1HJNQ _AXnRALtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AXgjULtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AXgjUbtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_AXnRALtwEeWW_9WJR1HJNQ" name="provide internal support_1" type="_g3JQsLtrEeWW_9WJR1HJNQ" association="_AXf8QLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_AxH9MLtwEeWW_9WJR1HJNQ" memberEnd="_AxJyYLtwEeWW_9WJR1HJNQ _AxJyYbtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AxJLULtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AxJLUbtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_AxJyYbtwEeWW_9WJR1HJNQ" name="provide internal support_1" type="_g3JQsLtrEeWW_9WJR1HJNQ" association="_AxH9MLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nv0mcLtwEeWW_9WJR1HJNQ" name="Provide system maintenance">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7vxGsLtwEeWW_9WJR1HJNQ" name="solve bugs_1" type="_skLtULtwEeWW_9WJR1HJNQ" aggregation="composite" association="_7vv4kLtwEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8ODlMbtwEeWW_9WJR1HJNQ" name="continuous development_1" type="_vHLOgLtwEeWW_9WJR1HJNQ" aggregation="composite" association="_8OCXELtwEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9PmhwLtwEeWW_9WJR1HJNQ" name="fix physical problems_1" type="_yu48ELtwEeWW_9WJR1HJNQ" aggregation="composite" association="_9PlToLtwEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_9tTxcrtwEeWW_9WJR1HJNQ" name="solve communication issues_1" type="_1HkqsLtwEeWW_9WJR1HJNQ" aggregation="composite" association="_9tTKYLtwEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4MDdcLtyEeWW_9WJR1HJNQ" name="maintenance reviews_1" type="_vyzTgLtyEeWW_9WJR1HJNQ" aggregation="composite" association="_4MBoQLtyEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_skLtULtwEeWW_9WJR1HJNQ" name="Solve bugs">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Er_a0LtxEeWW_9WJR1HJNQ" name="id: F7.3.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vHLOgLtwEeWW_9WJR1HJNQ" name="Continuous development">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GN2PILtxEeWW_9WJR1HJNQ" name="id: F7.3.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yu48ELtwEeWW_9WJR1HJNQ" name="Fix physical problems">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_HyQBILtxEeWW_9WJR1HJNQ" name="id: F7.3.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_1HkqsLtwEeWW_9WJR1HJNQ" name="Solve communication issues">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_JdzkALtxEeWW_9WJR1HJNQ" name="id: F7.3.1.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7vv4kLtwEeWW_9WJR1HJNQ" memberEnd="_7vxGsLtwEeWW_9WJR1HJNQ _7vxGsbtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7vwfoLtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7vwfobtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7vxGsbtwEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_nv0mcLtwEeWW_9WJR1HJNQ" association="_7vv4kLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8OCXELtwEeWW_9WJR1HJNQ" memberEnd="_8ODlMbtwEeWW_9WJR1HJNQ _8OEMQLtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8OC-ILtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8ODlMLtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8OEMQLtwEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_nv0mcLtwEeWW_9WJR1HJNQ" association="_8OCXELtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_9PlToLtwEeWW_9WJR1HJNQ" memberEnd="_9PmhwLtwEeWW_9WJR1HJNQ _9PmhwbtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9Pl6sLtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9Pl6sbtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9PmhwbtwEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_nv0mcLtwEeWW_9WJR1HJNQ" association="_9PlToLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_9tTKYLtwEeWW_9WJR1HJNQ" memberEnd="_9tTxcrtwEeWW_9WJR1HJNQ _9tUYgLtwEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9tTxcLtwEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9tTxcbtwEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_9tUYgLtwEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_nv0mcLtwEeWW_9WJR1HJNQ" association="_9tTKYLtwEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vyzTgLtyEeWW_9WJR1HJNQ" name="Maintenance reviews">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2fuegLtyEeWW_9WJR1HJNQ" name="id: F7.3.1.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_4MBoQLtyEeWW_9WJR1HJNQ" memberEnd="_4MDdcLtyEeWW_9WJR1HJNQ _4MDdcbtyEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4MC2YLtyEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4MC2YbtyEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_4MDdcbtyEeWW_9WJR1HJNQ" name="provide system maintenance_1" type="_nv0mcLtwEeWW_9WJR1HJNQ" association="_4MBoQLtyEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_YH350LtzEeWW_9WJR1HJNQ" name="Provide documentation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YsTAELt0EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" aggregation="composite" association="_YsRx8Lt0EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZHl08bt0EeWW_9WJR1HJNQ" name="provide documentation for developers_1" type="_kvStULtzEeWW_9WJR1HJNQ" aggregation="composite" association="_ZHlN4Lt0EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_aQuAMLt0EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_rcgzQLtzEeWW_9WJR1HJNQ" aggregation="composite" association="_aQrj8Lt0EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hnVd4LtzEeWW_9WJR1HJNQ" name="Provide documentation for Stakeholders">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_MTVp4Lt1EeWW_9WJR1HJNQ" name="provide doc. for users (u1)_1" type="_i7SjoLt0EeWW_9WJR1HJNQ" aggregation="composite" association="_MTTNoLt1EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_M0E_cLt1EeWW_9WJR1HJNQ" name="provide doc for university regulators (u2_1" type="_jiCakLt0EeWW_9WJR1HJNQ" aggregation="composite" association="_M0DxULt1EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NhEoULt1EeWW_9WJR1HJNQ" name="provide doc. for drone regulators (u3)_1" type="_kBQGILt0EeWW_9WJR1HJNQ" aggregation="composite" association="_NhDaMLt1EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OEsSwLt1EeWW_9WJR1HJNQ" name="provide doc. for operators (u4)_1" type="_kXyW0Lt0EeWW_9WJR1HJNQ" aggregation="composite" association="_OErEoLt1EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OcSTYrt1EeWW_9WJR1HJNQ" name="provide doc. for installing and maintenance (u5)_1" type="_kxTDALt0EeWW_9WJR1HJNQ" aggregation="composite" association="_OcRsULt1EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XdjfkLt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kvStULtzEeWW_9WJR1HJNQ" name="Provide documentation for developers">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bDtt8Lt1EeWW_9WJR1HJNQ" name="id: F7.3.2.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rcgzQLtzEeWW_9WJR1HJNQ" name="Provide Project documentation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_caTtcLt1EeWW_9WJR1HJNQ" name="id: F7.3.2.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_YsRx8Lt0EeWW_9WJR1HJNQ" memberEnd="_YsTAELt0EeWW_9WJR1HJNQ _YsTAEbt0EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YsSZALt0EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YsSZAbt0EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_YsTAEbt0EeWW_9WJR1HJNQ" name="provide documentation_1" type="_YH350LtzEeWW_9WJR1HJNQ" association="_YsRx8Lt0EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_ZHlN4Lt0EeWW_9WJR1HJNQ" memberEnd="_ZHl08bt0EeWW_9WJR1HJNQ _ZHl08rt0EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZHlN4bt0EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZHl08Lt0EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_ZHl08rt0EeWW_9WJR1HJNQ" name="provide documentation_1" type="_YH350LtzEeWW_9WJR1HJNQ" association="_ZHlN4Lt0EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_aQrj8Lt0EeWW_9WJR1HJNQ" memberEnd="_aQuAMLt0EeWW_9WJR1HJNQ _aQuAMbt0EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aQtZILt0EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aQtZIbt0EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_aQuAMbt0EeWW_9WJR1HJNQ" name="provide documentation_1" type="_YH350LtzEeWW_9WJR1HJNQ" association="_aQrj8Lt0EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_i7SjoLt0EeWW_9WJR1HJNQ" name="Provide doc. for users (U1)">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_emXVULt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jiCakLt0EeWW_9WJR1HJNQ" name="Provide doc for University regulators (U2">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gVH9MLt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kBQGILt0EeWW_9WJR1HJNQ" name="Provide doc. for Drone Regulators (U3)">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_h_lT4Lt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kXyW0Lt0EeWW_9WJR1HJNQ" name="Provide doc. for operators (U4)">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_jldskLt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kxTDALt0EeWW_9WJR1HJNQ" name="Provide doc. for installing and maintenance (U5)">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lJedALt1EeWW_9WJR1HJNQ" name="id: F7.3.2.1.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_MTTNoLt1EeWW_9WJR1HJNQ" memberEnd="_MTVp4Lt1EeWW_9WJR1HJNQ _MTVp4bt1EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MTUbwLt1EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MTVC0Lt1EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_MTVp4bt1EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" association="_MTTNoLt1EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_M0DxULt1EeWW_9WJR1HJNQ" memberEnd="_M0E_cLt1EeWW_9WJR1HJNQ _M0E_cbt1EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_M0EYYLt1EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_M0EYYbt1EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_M0E_cbt1EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" association="_M0DxULt1EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_NhDaMLt1EeWW_9WJR1HJNQ" memberEnd="_NhEoULt1EeWW_9WJR1HJNQ _NhEoUbt1EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NhEBQLt1EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NhEBQbt1EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_NhEoUbt1EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" association="_NhDaMLt1EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OErEoLt1EeWW_9WJR1HJNQ" memberEnd="_OEsSwLt1EeWW_9WJR1HJNQ _OEsSwbt1EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OErrsLt1EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OErrsbt1EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OEsSwbt1EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" association="_OErEoLt1EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_OcRsULt1EeWW_9WJR1HJNQ" memberEnd="_OcSTYrt1EeWW_9WJR1HJNQ _OcS6cLt1EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OcSTYLt1EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OcSTYbt1EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_OcS6cLt1EeWW_9WJR1HJNQ" name="provide documentation for stakeholders_1" type="_hnVd4LtzEeWW_9WJR1HJNQ" association="_OcRsULt1EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_a2n3sLt2EeWW_9WJR1HJNQ" name="Provide Project documentation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VFvBsLt3EeWW_9WJR1HJNQ" name="provide a sep_1" type="_mmDTQLt2EeWW_9WJR1HJNQ" aggregation="composite" association="_VFtzkLt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VjkNMrt3EeWW_9WJR1HJNQ" name="provide a conops_1" type="_qKYVoLt2EeWW_9WJR1HJNQ" aggregation="composite" association="_VjjmILt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_WEPRULt3EeWW_9WJR1HJNQ" name="provide a syrs_1" type="_rx0NgLt2EeWW_9WJR1HJNQ" aggregation="composite" association="_WEODMLt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Wbhv8bt3EeWW_9WJR1HJNQ" name="provide a design doc_1" type="_unjrkLt2EeWW_9WJR1HJNQ" aggregation="composite" association="_Wbgh0Lt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_WxEiIrt3EeWW_9WJR1HJNQ" name="provide a testing doc_1" type="_yyUb0Lt2EeWW_9WJR1HJNQ" aggregation="composite" association="_WxD7ELt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XHPmcrt3EeWW_9WJR1HJNQ" name="provide a system doc_1" type="_3Q_mkLt2EeWW_9WJR1HJNQ" aggregation="composite" association="_XHO_YLt3EeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XbZ4kLt3EeWW_9WJR1HJNQ" name="provide an environtmental report_1" type="_CJtckLt3EeWW_9WJR1HJNQ" aggregation="composite" association="_XbYqcLt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mmDTQLt2EeWW_9WJR1HJNQ" name="Provide a SEP">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_kqDEILt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qKYVoLt2EeWW_9WJR1HJNQ" name="Provide a ConOps">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vsuucLt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rx0NgLt2EeWW_9WJR1HJNQ" name="Provide a SyRS">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_n8u84Lt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_unjrkLt2EeWW_9WJR1HJNQ" name="Provide a Design Doc">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_x6MrkLt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_yyUb0Lt2EeWW_9WJR1HJNQ" name="Provide a Testing Doc">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zekBULt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Q_mkLt2EeWW_9WJR1HJNQ" name="Provide a System doc">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1ixUwLt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.6"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CJtckLt3EeWW_9WJR1HJNQ" name="Provide an environtmental report">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2_oUULt3EeWW_9WJR1HJNQ" name="id: F7.3.2.3.7"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VFtzkLt3EeWW_9WJR1HJNQ" memberEnd="_VFvBsLt3EeWW_9WJR1HJNQ _VFvBsbt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VFuaoLt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VFuaobt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VFvBsbt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_VFtzkLt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VjjmILt3EeWW_9WJR1HJNQ" memberEnd="_VjkNMrt3EeWW_9WJR1HJNQ _Vjk0QLt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VjkNMLt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VjkNMbt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Vjk0QLt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_VjjmILt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WEODMLt3EeWW_9WJR1HJNQ" memberEnd="_WEPRULt3EeWW_9WJR1HJNQ _WEPRUbt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WEOqQLt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WEOqQbt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_WEPRUbt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_WEODMLt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Wbgh0Lt3EeWW_9WJR1HJNQ" memberEnd="_Wbhv8bt3EeWW_9WJR1HJNQ _Wbhv8rt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WbhI4Lt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Wbhv8Lt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_Wbhv8rt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_Wbgh0Lt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_WxD7ELt3EeWW_9WJR1HJNQ" memberEnd="_WxEiIrt3EeWW_9WJR1HJNQ _WxFJMLt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WxEiILt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WxEiIbt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_WxFJMLt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_WxD7ELt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_XHO_YLt3EeWW_9WJR1HJNQ" memberEnd="_XHPmcrt3EeWW_9WJR1HJNQ _XHQNgLt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHPmcLt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHPmcbt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_XHQNgLt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_XHO_YLt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_XbYqcLt3EeWW_9WJR1HJNQ" memberEnd="_XbZ4kLt3EeWW_9WJR1HJNQ _XbZ4kbt3EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XbZRgLt3EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XbZRgbt3EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_XbZ4kbt3EeWW_9WJR1HJNQ" name="provide project documentation_1" type="_a2n3sLt2EeWW_9WJR1HJNQ" association="_XbYqcLt3EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__yoToLt6EeWW_9WJR1HJNQ" name="Measure critical times">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VWqK4Lt9EeWW_9WJR1HJNQ" name="id: F8.1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DU1PELt7EeWW_9WJR1HJNQ" name="Measure user satisfaction">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_YqU7ELt9EeWW_9WJR1HJNQ" name="id: F8.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_E5gt4Lt7EeWW_9WJR1HJNQ" name="Measure Amount of completed mission">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_b5keQLt9EeWW_9WJR1HJNQ" name="id: F8.6"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_bTu4MLt7EeWW_9WJR1HJNQ" name="Measure app's KPI feature">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gnY4QLt9EeWW_9WJR1HJNQ" name="id: F8.9"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_w04FcLt7EeWW_9WJR1HJNQ" memberEnd="_w05Tkbt7EeWW_9WJR1HJNQ _w056oLt7EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_w04sgLt7EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_w05TkLt7EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_w056oLt7EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_w04FcLt7EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xwuCoLt7EeWW_9WJR1HJNQ" name="Measure times drones could not return">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XqcLYLt9EeWW_9WJR1HJNQ" name="id: F8.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3UracLt7EeWW_9WJR1HJNQ" name="Mesure system's availability rate">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Z_k2wLt9EeWW_9WJR1HJNQ" name="id: F8.4"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KhXRwLt8EeWW_9WJR1HJNQ" name="Measure times of disconnections">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_bDkDULt9EeWW_9WJR1HJNQ" name="id: F8.5"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ok9DALt8EeWW_9WJR1HJNQ" name="Measure traffic at the system">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_c5OkcLt9EeWW_9WJR1HJNQ" name="id: F8.7"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_brn-ULt8EeWW_9WJR1HJNQ" name="Measure user confirmation rate while navigation">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_eSIRELt9EeWW_9WJR1HJNQ" name="id: F8.8"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_40GJULt8EeWW_9WJR1HJNQ" memberEnd="_40HXcLt8EeWW_9WJR1HJNQ _40HXcbt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_40GwYLt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_40GwYbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_40HXcbt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_40GJULt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5OBFMLt8EeWW_9WJR1HJNQ" memberEnd="_5OBsQbt8EeWW_9WJR1HJNQ _5OBsQrt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5OBFMbt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5OBsQLt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5OBsQrt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_5OBFMLt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_5hRYYLt8EeWW_9WJR1HJNQ" memberEnd="_5hSmgLt8EeWW_9WJR1HJNQ _5hSmgbt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5hR_cLt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5hR_cbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_5hSmgbt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_5hRYYLt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_51dfsLt8EeWW_9WJR1HJNQ" memberEnd="_51et0Lt8EeWW_9WJR1HJNQ _51et0bt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_51eGwLt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_51eGwbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_51et0bt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_51dfsLt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_6NEucLt8EeWW_9WJR1HJNQ" memberEnd="_6NF8kLt8EeWW_9WJR1HJNQ _6NGjoLt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6NFVgLt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6NFVgbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6NGjoLt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_6NEucLt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_6nSlQLt8EeWW_9WJR1HJNQ" memberEnd="_6nTMUrt8EeWW_9WJR1HJNQ _6nTMU7t8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6nTMULt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6nTMUbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6nTMU7t8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_6nSlQLt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7B0lILt8EeWW_9WJR1HJNQ" memberEnd="_7B1zQrt8EeWW_9WJR1HJNQ _7B2aULt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7B1zQLt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7B1zQbt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7B2aULt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_7B0lILt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7ToG0Lt8EeWW_9WJR1HJNQ" memberEnd="_7Tot4rt8EeWW_9WJR1HJNQ _7TpU8Lt8EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7Tot4Lt8EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7Tot4bt8EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7TpU8Lt8EeWW_9WJR1HJNQ" name="measure system performance (f8)_1" type="_CT9EELQsEeWg6OidtfhE_g" association="_7ToG0Lt8EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qgRMcLt-EeWW_9WJR1HJNQ" name="Supply communication net">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_5vRtQLt-EeWW_9WJR1HJNQ" name="id: F9"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0kx-ULt-EeWW_9WJR1HJNQ" memberEnd="_0k0akbt-EeWW_9WJR1HJNQ _0k1BoLt-EeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0kzzgLt-EeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0k0akLt-EeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_0k1BoLt-EeWW_9WJR1HJNQ" name="functional model_1" type="_TXZkILFREeWoUp-kx4A_qQ" association="_0kx-ULt-EeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_k3kpILt_EeWW_9WJR1HJNQ" name="Data transfer">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dN8I0LuAEeWW_9WJR1HJNQ" name="data transfer with the environment_1" type="_C6C-QLuAEeWW_9WJR1HJNQ" aggregation="composite" association="_dN66sLuAEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dqlBgruAEeWW_9WJR1HJNQ" name="data transfer within soi_1" type="_H9g4ILuAEeWW_9WJR1HJNQ" aggregation="composite" association="_dqkacLuAEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_qOC3MLuCEeWW_9WJR1HJNQ" name="data transfer encription_1" type="_gEBTMLuCEeWW_9WJR1HJNQ" aggregation="composite" association="_qOBpELuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_C6C-QLuAEeWW_9WJR1HJNQ" name="Data transfer with the environment">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ga-FgLuAEeWW_9WJR1HJNQ" name="id: F5.1"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_HGdpcLuCEeWW_9WJR1HJNQ" name="read user commands_1" type="_khqYoLuBEeWW_9WJR1HJNQ" aggregation="composite" association="_HGcbULuCEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_H16wcLuCEeWW_9WJR1HJNQ" name="read/attend admin. request_1" type="_lKQCoLuBEeWW_9WJR1HJNQ" aggregation="composite" association="_H15iULuCEeWW_9WJR1HJNQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_IU7AobuCEeWW_9WJR1HJNQ" name="send to admin. system state_1" type="_-F3LoLuBEeWW_9WJR1HJNQ" aggregation="composite" association="_IU5ygLuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_H9g4ILuAEeWW_9WJR1HJNQ" name="Data transfer within SOI">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_h5kxgLuAEeWW_9WJR1HJNQ" name="id: F5.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_dN66sLuAEeWW_9WJR1HJNQ" memberEnd="_dN8I0LuAEeWW_9WJR1HJNQ _dN8I0buAEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dN7hwLuAEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dN7hwbuAEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dN8I0buAEeWW_9WJR1HJNQ" name="data transfer_1" type="_k3kpILt_EeWW_9WJR1HJNQ" association="_dN66sLuAEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_dqkacLuAEeWW_9WJR1HJNQ" memberEnd="_dqlBgruAEeWW_9WJR1HJNQ _dqlokLuAEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dqlBgLuAEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dqlBgbuAEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_dqlokLuAEeWW_9WJR1HJNQ" name="data transfer_1" type="_k3kpILt_EeWW_9WJR1HJNQ" association="_dqkacLuAEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_khqYoLuBEeWW_9WJR1HJNQ" name="id: F5.1.1">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Pr9foLuCEeWW_9WJR1HJNQ" name="Attribute1"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lKQCoLuBEeWW_9WJR1HJNQ" name="Read/Attend admin. request">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QS0rULuCEeWW_9WJR1HJNQ" name="id: F5.1.2"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-F3LoLuBEeWW_9WJR1HJNQ" name="Send to admin. System state">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_QyqpALuCEeWW_9WJR1HJNQ" name="id: F5.1.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_HGcbULuCEeWW_9WJR1HJNQ" memberEnd="_HGdpcLuCEeWW_9WJR1HJNQ _HGeQgLuCEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HGdCYLuCEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HGdCYbuCEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_HGeQgLuCEeWW_9WJR1HJNQ" name="data transfer with the environment_1" type="_C6C-QLuAEeWW_9WJR1HJNQ" association="_HGcbULuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_H15iULuCEeWW_9WJR1HJNQ" memberEnd="_H16wcLuCEeWW_9WJR1HJNQ _H16wcbuCEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H16JYLuCEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H16JYbuCEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_H16wcbuCEeWW_9WJR1HJNQ" name="data transfer with the environment_1" type="_C6C-QLuAEeWW_9WJR1HJNQ" association="_H15iULuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_IU5ygLuCEeWW_9WJR1HJNQ" memberEnd="_IU7AobuCEeWW_9WJR1HJNQ _IU7nsLuCEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IU6ZkLuCEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IU7AoLuCEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_IU7nsLuCEeWW_9WJR1HJNQ" name="data transfer with the environment_1" type="_C6C-QLuAEeWW_9WJR1HJNQ" association="_IU5ygLuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_gEBTMLuCEeWW_9WJR1HJNQ" name="Data transfer encription">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_k9gKoLuCEeWW_9WJR1HJNQ" name="id: F5.3"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_qOBpELuCEeWW_9WJR1HJNQ" memberEnd="_qOC3MLuCEeWW_9WJR1HJNQ _qOC3MbuCEeWW_9WJR1HJNQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qOCQILuCEeWW_9WJR1HJNQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qOCQIbuCEeWW_9WJR1HJNQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_qOC3MbuCEeWW_9WJR1HJNQ" name="data transfer_1" type="_k3kpILt_EeWW_9WJR1HJNQ" association="_qOBpELuCEeWW_9WJR1HJNQ"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_NhGOMLFIEeWoUp-kx4A_qQ" name="Operational Viewpoint">
         <ownedComment xmi:type="uml:Comment" xmi:id="_zGOHcLIvEeWoUp-kx4A_qQ">
@@ -2533,4 +3932,140 @@ INCONSISTENCIES</body>
   <Blocks:Block xmi:id="_pLkDULQrEeWg6OidtfhE_g" base_Class="_pKxZILQrEeWg6OidtfhE_g"/>
   <Blocks:Block xmi:id="_2oI9MLQrEeWg6OidtfhE_g" base_Class="_2oHvELQrEeWg6OidtfhE_g"/>
   <Blocks:Block xmi:id="_CT-SMLQsEeWg6OidtfhE_g" base_Class="_CT9EELQsEeWg6OidtfhE_g"/>
+  <Blocks:Block xmi:id="_CjG3oLsBEeWa_JALbMdaSA" base_Class="_CicwULsBEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_DHhzULsBEeWa_JALbMdaSA" base_Class="_DHf-ILsBEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_D9bgkLsBEeWa_JALbMdaSA" base_Class="_D9ZrYLsBEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_3NktULsBEeWa_JALbMdaSA" base_Class="_3Ni4ILsBEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_L3G9ILsCEeWa_JALbMdaSA" base_Class="_L3CrsLsCEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_ekV4ULsCEeWa_JALbMdaSA" base_Class="_ekUDILsCEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_lXj4kLsCEeWa_JALbMdaSA" base_Class="_lXiDYLsCEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_7gh60LsCEeWa_JALbMdaSA" base_Class="_7ggFoLsCEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_F4NgULsDEeWa_JALbMdaSA" base_Class="_F4KdALsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_GPU_0LsDEeWa_JALbMdaSA" base_Class="_GPTxsLsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_GqQoULsDEeWa_JALbMdaSA" base_Class="_GqOzILsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_wBKfELsDEeWa_JALbMdaSA" base_Class="_wBJQ8LsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_2HBqELsDEeWa_JALbMdaSA" base_Class="_2G_04LsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_2c5MYLsDEeWa_JALbMdaSA" base_Class="_2c3-QLsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_2u6JcLsDEeWa_JALbMdaSA" base_Class="_2u47ULsDEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_mgSJQLsEEeWa_JALbMdaSA" base_Class="_mgQ7ILsEEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_m8YPYLsEEeWa_JALbMdaSA" base_Class="_m8XBQLsEEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_XLu5wLsHEeWa_JALbMdaSA" base_Class="_XLtEkLsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_eCjnoLsHEeWa_JALbMdaSA" base_Class="_eCjAkLsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_iai7kLsHEeWa_JALbMdaSA" base_Class="_iahtcLsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_nKe1cLsHEeWa_JALbMdaSA" base_Class="_nKdnULsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_pj6K8LsHEeWa_JALbMdaSA" base_Class="_pj480LsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_r9n0ULsHEeWa_JALbMdaSA" base_Class="_r9nNQLsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_uCQlkLsHEeWa_JALbMdaSA" base_Class="_uCOwYLsHEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_BYehcLsKEeWa_JALbMdaSA" base_Class="_BYdTULsKEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Jnw3ELsKEeWa_JALbMdaSA" base_Class="_Jnvo8LsKEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_LYU1wLsKEeWa_JALbMdaSA" base_Class="_LYTnoLsKEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Vct2YLsLEeWa_JALbMdaSA" base_Class="_VcsBMLsLEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Qp5VsLsNEeWa_JALbMdaSA" base_Class="_Qp4HkLsNEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_qCv0ULsNEeWa_JALbMdaSA" base_Class="_qCumMLsNEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_IRUrwLsOEeWa_JALbMdaSA" base_Class="_IRTdoLsOEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_jErZgLsOEeWa_JALbMdaSA" base_Class="_jEqLYLsOEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_PXybULsSEeWa_JALbMdaSA" base_Class="_PXwmILsSEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_HmgEwLscEeWa_JALbMdaSA" base_Class="_HmNJ0LscEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_IEhdgLscEeWa_JALbMdaSA" base_Class="_IEgPYLscEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Ict7ELscEeWa_JALbMdaSA" base_Class="_Icss8LscEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_rtuxoLscEeWa_JALbMdaSA" base_Class="_rtuKkLscEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_LT_NsLsdEeWa_JALbMdaSA" base_Class="_LT-moLsdEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_kvPgELsdEeWa_JALbMdaSA" base_Class="_kvOR8LsdEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_lMPlILsdEeWa_JALbMdaSA" base_Class="_lMOXALsdEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_llADYLsdEeWa_JALbMdaSA" base_Class="_lk_cULsdEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_jXueELseEeWa_JALbMdaSA" base_Class="_jXtP8LseEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_93xOQLseEeWa_JALbMdaSA" base_Class="_93wAILseEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_rQWxwLsfEeWa_JALbMdaSA" base_Class="_rQUVgLsfEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_tRVyELsfEeWa_JALbMdaSA" base_Class="_tRUj8LsfEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_VI59ALsgEeWa_JALbMdaSA" base_Class="_VI4u4LsgEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_srzmoLsgEeWa_JALbMdaSA" base_Class="_sryYgLsgEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_5zl8QLsgEeWa_JALbMdaSA" base_Class="_5zkuILsgEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_7r1QQLsgEeWa_JALbMdaSA" base_Class="_7rzbELsgEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_ACGs8LshEeWa_JALbMdaSA" base_Class="_ACGF4LshEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_XEnmULshEeWa_JALbMdaSA" base_Class="_XEmYMLshEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_7k8vsLshEeWa_JALbMdaSA" base_Class="_7k7hkLshEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_wJx3cLsiEeWa_JALbMdaSA" base_Class="_wJwpULsiEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_wffowLsiEeWa_JALbMdaSA" base_Class="_wffBsLsiEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_wxIyYLsiEeWa_JALbMdaSA" base_Class="_wxILULsiEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_xB1g0LsiEeWa_JALbMdaSA" base_Class="_xB0SsLsiEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_xW6Y8LsiEeWa_JALbMdaSA" base_Class="_xW5x4LsiEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_YCMW8LsjEeWa_JALbMdaSA" base_Class="_YCLv4LsjEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_6TJesLsjEeWa_JALbMdaSA" base_Class="_6TIQkLsjEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_QfbToLskEeWa_JALbMdaSA" base_Class="_QfaFgLskEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_YU0ikLskEeWa_JALbMdaSA" base_Class="_YUzUcLskEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_fz34oLslEeWa_JALbMdaSA" base_Class="_fz2qgLslEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_kaSDELslEeWa_JALbMdaSA" base_Class="_kaQ08LslEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_nOWGILslEeWa_JALbMdaSA" base_Class="_nOVfELslEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_zFKjILslEeWa_JALbMdaSA" base_Class="_zFJVALslEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_1QSW4LslEeWa_JALbMdaSA" base_Class="_1QRIwLslEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_GXB1YLsmEeWa_JALbMdaSA" base_Class="_GXAnQLsmEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Mp9MALsmEeWa_JALbMdaSA" base_Class="_Mp794LsmEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Q2pO4LsmEeWa_JALbMdaSA" base_Class="_Q2oAwLsmEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_SZCOsLsmEeWa_JALbMdaSA" base_Class="_SZBAkLsmEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="__YncULsmEeWa_JALbMdaSA" base_Class="__YlAELsmEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_q-104LsoEeWa_JALbMdaSA" base_Class="_q-1N0LsoEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_zm1lcLsoEeWa_JALbMdaSA" base_Class="_zm0XULsoEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_57pLYLsoEeWa_JALbMdaSA" base_Class="_57n9QLsoEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_9Bor8LsoEeWa_JALbMdaSA" base_Class="_9Bnd0LsoEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_Jy1GgLspEeWa_JALbMdaSA" base_Class="_Jy0fcLspEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_gPx0sLspEeWa_JALbMdaSA" base_Class="_gPwmkLspEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_hc8LYLspEeWa_JALbMdaSA" base_Class="_hc7kULspEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_FhMAQLsrEeWa_JALbMdaSA" base_Class="_FhKyILsrEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_H4M68LsrEeWa_JALbMdaSA" base_Class="_H4Ls0LsrEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_mJ27kLsrEeWa_JALbMdaSA" base_Class="_mJ1tcLsrEeWa_JALbMdaSA"/>
+  <Blocks:Block xmi:id="_DHe_ULtqEeWW_9WJR1HJNQ" base_Class="_DG6XkLtqEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_rHOO0LtqEeWW_9WJR1HJNQ" base_Class="_rHMZoLtqEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_taiVQLtqEeWW_9WJR1HJNQ" base_Class="_tahHILtqEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_g3LF4LtrEeWW_9WJR1HJNQ" base_Class="_g3JQsLtrEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_x_oboLtrEeWW_9WJR1HJNQ" base_Class="_x_mmcLtrEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_KQBdYLtsEeWW_9WJR1HJNQ" base_Class="_KP_oMLtsEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_IZdH4LttEeWW_9WJR1HJNQ" base_Class="_IZaroLttEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_KiU44LttEeWW_9WJR1HJNQ" base_Class="_KiTqwLttEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_QfcXkLttEeWW_9WJR1HJNQ" base_Class="_QfZ7ULttEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_fy4scLttEeWW_9WJR1HJNQ" base_Class="_fy23QLttEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_QiU3ALtuEeWW_9WJR1HJNQ" base_Class="_QiTB0LtuEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_SPu0ALtuEeWW_9WJR1HJNQ" base_Class="_SPtl4LtuEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_dnaBcLtvEeWW_9WJR1HJNQ" base_Class="_dnWXELtvEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_mA5b8LtvEeWW_9WJR1HJNQ" base_Class="_mA4N0LtvEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_4nx3gLtvEeWW_9WJR1HJNQ" base_Class="_4nwpYLtvEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_nv10kLtwEeWW_9WJR1HJNQ" base_Class="_nv0mcLtwEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_skM7cLtwEeWW_9WJR1HJNQ" base_Class="_skLtULtwEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_vHMcoLtwEeWW_9WJR1HJNQ" base_Class="_vHLOgLtwEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_yu7YULtwEeWW_9WJR1HJNQ" base_Class="_yu48ELtwEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_1Hl40LtwEeWW_9WJR1HJNQ" base_Class="_1HkqsLtwEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_vy294LtyEeWW_9WJR1HJNQ" base_Class="_vyzTgLtyEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_YH5H8LtzEeWW_9WJR1HJNQ" base_Class="_YH350LtzEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_hnWE8LtzEeWW_9WJR1HJNQ" base_Class="_hnVd4LtzEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_kvVJkLtzEeWW_9WJR1HJNQ" base_Class="_kvStULtzEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_rciBYLtzEeWW_9WJR1HJNQ" base_Class="_rcgzQLtzEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_i7TxwLt0EeWW_9WJR1HJNQ" base_Class="_i7SjoLt0EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_jiDosLt0EeWW_9WJR1HJNQ" base_Class="_jiCakLt0EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_kBRUQLt0EeWW_9WJR1HJNQ" base_Class="_kBQGILt0EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_kXzk8Lt0EeWW_9WJR1HJNQ" base_Class="_kXyW0Lt0EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_kxYikLt0EeWW_9WJR1HJNQ" base_Class="_kxTDALt0EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_a2pF0Lt2EeWW_9WJR1HJNQ" base_Class="_a2n3sLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_mmEhYLt2EeWW_9WJR1HJNQ" base_Class="_mmDTQLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_qKY8sLt2EeWW_9WJR1HJNQ" base_Class="_qKYVoLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_rx2CsLt2EeWW_9WJR1HJNQ" base_Class="_rx0NgLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_unk5sLt2EeWW_9WJR1HJNQ" base_Class="_unjrkLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_yyVp8Lt2EeWW_9WJR1HJNQ" base_Class="_yyUb0Lt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_3RA0sLt2EeWW_9WJR1HJNQ" base_Class="_3Q_mkLt2EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_CJuqsLt3EeWW_9WJR1HJNQ" base_Class="_CJtckLt3EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="__yphwLt6EeWW_9WJR1HJNQ" base_Class="__yoToLt6EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_DU2dMLt7EeWW_9WJR1HJNQ" base_Class="_DU1PELt7EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_E5ijELt7EeWW_9WJR1HJNQ" base_Class="_E5gt4Lt7EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_bTwGULt7EeWW_9WJR1HJNQ" base_Class="_bTu4MLt7EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_xwvQwLt7EeWW_9WJR1HJNQ" base_Class="_xwuCoLt7EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_3UsBgLt7EeWW_9WJR1HJNQ" base_Class="_3UracLt7EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_KhX40Lt8EeWW_9WJR1HJNQ" base_Class="_KhXRwLt8EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_Ok-RILt8EeWW_9WJR1HJNQ" base_Class="_Ok9DALt8EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_brpMcLt8EeWW_9WJR1HJNQ" base_Class="_brn-ULt8EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_qgTBoLt-EeWW_9WJR1HJNQ" base_Class="_qgRMcLt-EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_k3l3QLt_EeWW_9WJR1HJNQ" base_Class="_k3kpILt_EeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_C6DlULuAEeWW_9WJR1HJNQ" base_Class="_C6C-QLuAEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_H9iGQLuAEeWW_9WJR1HJNQ" base_Class="_H9g4ILuAEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_khrmwLuBEeWW_9WJR1HJNQ" base_Class="_khqYoLuBEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_lKRQwLuBEeWW_9WJR1HJNQ" base_Class="_lKQCoLuBEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_-F6O8LuBEeWW_9WJR1HJNQ" base_Class="_-F3LoLuBEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_gEChULuCEeWW_9WJR1HJNQ" base_Class="_gEBTMLuCEeWW_9WJR1HJNQ"/>
 </xmi:XMI>
