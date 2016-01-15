@@ -448,7 +448,7 @@ INCONSISTENCIES: </body>
                 <body>RATIONALE&#xD;
 Diagram Name: UC Landing in secure Diagram&#xD;
 Created by: MCS, 05/01/2016 (16:00)&#xD;
-Last modification by: &#xD;
+Last modification by: JSG, 15/01/2016 (14:32)&#xD;
 Description: This diagram defines the Use Case 4 defined at ConOps&#xD;
 Stakeholders:&#xD;
 Concerns satisfied:&#xD;
@@ -470,6 +470,23 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Activity" xmi:id="_BfzCQLuKEeW0O4sLWQmi3g" name="Landing in secure" useCase="_HJvtULuKEeW0O4sLWQmi3g _hhQMkLuKEeW0O4sLWQmi3g _uLlxMLuKEeW0O4sLWQmi3g _5QBH8LuKEeW0O4sLWQmi3g __Re7ILuKEeW0O4sLWQmi3g">
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_HJvtULuKEeW0O4sLWQmi3g" name="Standard State" subject="_BfzCQLuKEeW0O4sLWQmi3g">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_o1nLALuKEeW0O4sLWQmi3g" general="_hhQMkLuKEeW0O4sLWQmi3g"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_hhQMkLuKEeW0O4sLWQmi3g" name="Define Not Normal Operation State" subject="_BfzCQLuKEeW0O4sLWQmi3g">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_3fSxMLuKEeW0O4sLWQmi3g" general="_uLlxMLuKEeW0O4sLWQmi3g"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uLlxMLuKEeW0O4sLWQmi3g" name="Define Secure Landing Point as destination" subject="_BfzCQLuKEeW0O4sLWQmi3g">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_-Rh6ALuKEeW0O4sLWQmi3g" general="_5QBH8LuKEeW0O4sLWQmi3g"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5QBH8LuKEeW0O4sLWQmi3g" name="Stop Drone" subject="_BfzCQLuKEeW0O4sLWQmi3g">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_EsGwwLuLEeW0O4sLWQmi3g" general="__Re7ILuKEeW0O4sLWQmi3g"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="__Re7ILuKEeW0O4sLWQmi3g" name="Take Drone to Base" subject="_BfzCQLuKEeW0O4sLWQmi3g"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_RtuCYLuKEeW0O4sLWQmi3g" name="Problem from Enviroment"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_F4C_cLuLEeW0O4sLWQmi3g" name="System Adm"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_-QYr8LOyEeWg6OidtfhE_g" name="System termination" classifierBehavior="_weJVALO7EeWg6OidtfhE_g">
               <ownedComment xmi:type="uml:Comment" xmi:id="_uVeUILPCEeWg6OidtfhE_g">
@@ -589,6 +606,20 @@ INCONSISTENCIES: </body>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_A-P3YLQWEeWg6OidtfhE_g" name="initialize system" type="_oDZ_4LQUEeWg6OidtfhE_g" association="_A-OpQLQWEeWg6OidtfhE_g"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_A-P3YbQWEeWg6OidtfhE_g" name="system off" type="_vbMFwLQUEeWg6OidtfhE_g" association="_A-OpQLQWEeWg6OidtfhE_g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VenhILuKEeW0O4sLWQmi3g" memberEnd="_VerykLuKEeW0O4sLWQmi3g _VesZoLuKEeW0O4sLWQmi3g">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VepWULuKEeW0O4sLWQmi3g" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vep9YLuKEeW0O4sLWQmi3g" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_VerykLuKEeW0O4sLWQmi3g" name="standard state" type="_HJvtULuKEeW0O4sLWQmi3g" association="_VenhILuKEeW0O4sLWQmi3g"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_VesZoLuKEeW0O4sLWQmi3g" name="problem from enviroment" type="_RtuCYLuKEeW0O4sLWQmi3g" association="_VenhILuKEeW0O4sLWQmi3g"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_JCNOULuLEeW0O4sLWQmi3g" memberEnd="_JCOccLuLEeW0O4sLWQmi3g _JCOccbuLEeW0O4sLWQmi3g">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JCN1YLuLEeW0O4sLWQmi3g" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JCN1YbuLEeW0O4sLWQmi3g" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_JCOccLuLEeW0O4sLWQmi3g" name="take drone to base" type="__Re7ILuKEeW0O4sLWQmi3g" association="_JCNOULuLEeW0O4sLWQmi3g"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_JCOccbuLEeW0O4sLWQmi3g" name="system adm" type="_F4C_cLuLEeW0O4sLWQmi3g" association="_JCNOULuLEeW0O4sLWQmi3g"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
