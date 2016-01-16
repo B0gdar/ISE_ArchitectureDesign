@@ -626,8 +626,8 @@ INCONSISTENCIES: </body>
                 <body>RATIONALE&#xD;
 Diagram Name: UC User request for guidance Diagram&#xD;
 Created by: MCS, 05/01/2016 (16:00)&#xD;
-Last modification by: &#xD;
-Description: This diagram defines the Use Case defined at ConOps&#xD;
+Last modification by: MCR, 16/01/2016 (22:00)&#xD;
+Description: This diagram defines the Use Case 2 defined at ConOps&#xD;
 Stakeholders:&#xD;
 Concerns satisfied:&#xD;
 INCONSISTENCIES: </body>
@@ -647,6 +647,37 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_1rNo9byREeWv_74potBOnA" name="User Request for Guidance&#xD;" useCase="_1rNo9ryREeWv_74potBOnA _1rNo-LyREeWv_74potBOnA _1rNo-ryREeWv_74potBOnA _1rNo_LyREeWv_74potBOnA _hJveELyTEeWv_74potBOnA _WCYSoLyUEeWv_74potBOnA">
+                <generalization xmi:type="uml:Generalization" xmi:id="_1rNo97yREeWv_74potBOnA" general="_1rNo-LyREeWv_74potBOnA"/>
+                <generalization xmi:type="uml:Generalization" xmi:id="_1rNo-byREeWv_74potBOnA" general="_1rNo-ryREeWv_74potBOnA"/>
+                <generalization xmi:type="uml:Generalization" xmi:id="_1rNo-7yREeWv_74potBOnA" general="_1rNo_LyREeWv_74potBOnA"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1rNo9ryREeWv_74potBOnA" name="Checking Drone Availability&#xD;" subject="_1rNo9byREeWv_74potBOnA"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1rNo-LyREeWv_74potBOnA" name="Check Operational Conditions&#xD;" subject="_1rNo9byREeWv_74potBOnA"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1rNo-ryREeWv_74potBOnA" name="Calculate Optimal Route to Destination&#xD;&#xD;" subject="_1rNo9byREeWv_74potBOnA"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1rNo_LyREeWv_74potBOnA" name="Send Drone to User Spot&#xD;" subject="_1rNo9byREeWv_74potBOnA">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_lmtjMLyUEeWv_74potBOnA" general="_hJveELyTEeWv_74potBOnA"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Kkw1QLyTEeWv_74potBOnA" name="CopyOf_Send Drone to User Spot&#xD;_1"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_NpGwALyTEeWv_74potBOnA" name="CopyOf_Send Drone to User Spot&#xD;_2"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QBJlcLyTEeWv_74potBOnA" name="CopyOf_Send Drone to User Spot&#xD;_3"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cQGOkLyTEeWv_74potBOnA" name="CopyOf_Send Drone to User Spot&#xD;_4"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_hJveELyTEeWv_74potBOnA" name="Guide User to Destination" subject="_1rNo9byREeWv_74potBOnA">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_oxrqYLyUEeWv_74potBOnA" general="_WCYSoLyUEeWv_74potBOnA"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_WCYSoLyUEeWv_74potBOnA" name="Check Pending Guidance Requests&#xD;" subject="_1rNo9byREeWv_74potBOnA"/>
+                <nestedClassifier xmi:type="uml:UseCase" xmi:id="_1rNo_byREeWv_74potBOnA" name="Receive Guidance Request&#xD;">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_EdIdwLyVEeWv_74potBOnA" general="_1rNo9ryREeWv_74potBOnA"/>
+                </nestedClassifier>
+              </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_1rHiULyREeWv_74potBOnA" name="Request for Guidance&#xD;"/>
+              <nestedClassifier xmi:type="uml:Association" xmi:id="_1rNo8LyREeWv_74potBOnA" memberEnd="_1rNo87yREeWv_74potBOnA _1rNo9LyREeWv_74potBOnA">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1rNo8byREeWv_74potBOnA" source="org.eclipse.papyrus">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1rNo8ryREeWv_74potBOnA" key="nature" value="UML_Nature"/>
+                </eAnnotations>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_1rNo87yREeWv_74potBOnA" name="initialize system" type="_1rNo_byREeWv_74potBOnA" association="_1rNo8LyREeWv_74potBOnA"/>
+                <ownedEnd xmi:type="uml:Property" xmi:id="_1rNo9LyREeWv_74potBOnA" name="system adm" type="_1rHiULyREeWv_74potBOnA" association="_1rNo8LyREeWv_74potBOnA"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_u9wLELyUEeWv_74potBOnA" name="User Ready"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_9mZ60LOyEeWg6OidtfhE_g" name="Change drone operational parameters" classifierBehavior="_TCtxwLO7EeWg6OidtfhE_g">
               <ownedComment xmi:type="uml:Comment" xmi:id="_v2xHwLPCEeWg6OidtfhE_g">
@@ -883,6 +914,13 @@ INCONSISTENCIES: </body>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_Cv06MLufEeW0Bbbf_g52ow" name="stop command" type="_fEQOkLueEeW0Bbbf_g52ow" association="_CvzFALufEeW0Bbbf_g52ow"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_Cv1hQLufEeW0Bbbf_g52ow" name="system security" type="_vm_oILueEeW0Bbbf_g52ow" association="_CvzFALufEeW0Bbbf_g52ow"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_zOdyULyUEeWv_74potBOnA" memberEnd="_zOg1oLyUEeWv_74potBOnA _zOg1obyUEeWv_74potBOnA">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zOfAcLyUEeWv_74potBOnA" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zOfAcbyUEeWv_74potBOnA" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1oLyUEeWv_74potBOnA" name="guide user to destination" type="_hJveELyTEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1obyUEeWv_74potBOnA" name="user ready" type="_u9wLELyUEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
