@@ -2317,6 +2317,17 @@ INCONSISTENCIES: &#xD;
 PC5 defines a max dimension of 28x28x5 cm3, the real dimension is 32x38x3.6cm3.&#xD;
 ER2.1 stablishes that there should have been a physical operator which shall mantain a visual contal while operationg. This rule only would affects the system if it would work outdoors, so it is not apliable. This also can be extended to the height limitation or the daytime conditions. </body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_LuhKELx8EeWOMfbcBMUEQw">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Meeting Point Subsystem Diagram&#xD;
+Created by: ADD, 16/01/2016, 19:09 (GMT+1)&#xD;
+Last modification by: ADD, 16/01/2016, 19:45 (GMT+1)&#xD;
+Description: This diagram defines the &quot;Meeting point&quot; element of the system; i.e., it states what the &quot;Meeting Point&quot; actually is.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+INCONSISTENCIES</body>
+        </ownedComment>
         <ownedRule xmi:type="uml:Constraint" xmi:id="_61cc8LIvEeWoUp-kx4A_qQ" name="Constraint2" constrainedElement="_cX2kALItEeWoUp-kx4A_qQ">
           <specification xmi:type="uml:LiteralString" xmi:id="_61drELIvEeWoUp-kx4A_qQ" name="constraintSpec" value="1200 mAh"/>
         </ownedRule>
@@ -3742,6 +3753,107 @@ INCONSISTENCIES</body>
         <packagedElement xmi:type="uml:Package" xmi:id="_3YWwcLPvEeWg6OidtfhE_g" name="Operational View">
           <packagedElement xmi:type="uml:Model" xmi:id="_9gl60LFOEeWoUp-kx4A_qQ" name="Operational Model"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_VYgGoLx9EeWOMfbcBMUEQw" name="Meeting Point Subsystem">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VYgGobx9EeWOMfbcBMUEQw" name="server#1_1" type="_Fyo5cLPUEeWg6OidtfhE_g" aggregation="composite" association="_VYjxALx9EeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VYgGorx9EeWOMfbcBMUEQw" name="block3_1" type="_Q5JuULPpEeWg6OidtfhE_g" aggregation="composite" association="_VYii4Lx9EeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_AA1BoryBEeWOMfbcBMUEQw" name="meeting point_1" type="_X1788Lx-EeWOMfbcBMUEQw" aggregation="composite" association="_AA0akLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VYii4Lx9EeWOMfbcBMUEQw" memberEnd="_VYii47x9EeWOMfbcBMUEQw _VYgGorx9EeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VYii4bx9EeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VYii4rx9EeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VYii47x9EeWOMfbcBMUEQw" name="server subsystem_1" type="_VYgGoLx9EeWOMfbcBMUEQw" association="_VYii4Lx9EeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_VYjxALx9EeWOMfbcBMUEQw" memberEnd="_VYjxA7x9EeWOMfbcBMUEQw _VYgGobx9EeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VYjxAbx9EeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VYjxArx9EeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_VYjxA7x9EeWOMfbcBMUEQw" name="server subsystem_1" type="_VYgGoLx9EeWOMfbcBMUEQw" association="_VYjxALx9EeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_X1788Lx-EeWOMfbcBMUEQw" name="Meeting Point" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_0S_hgbyAEeWOMfbcBMUEQw" name="information poster_1" type="_CWUu0LyAEeWOMfbcBMUEQw" aggregation="composite" association="_0S-6cLyAEeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DqhFIryBEeWOMfbcBMUEQw" name="marker_1" type="_hEewILx-EeWOMfbcBMUEQw" aggregation="composite" association="_DqgeELyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_hEewILx-EeWOMfbcBMUEQw" name="Marker" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mzlykLx_EeWOMfbcBMUEQw" name="Optionality: A decision among the STICK and the CROSS may be taken"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_FNodsryBEeWOMfbcBMUEQw" name="the stick_1" type="_jEYyYLx-EeWOMfbcBMUEQw" association="_FNn2oLyBEeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_GmH6oLyBEeWOMfbcBMUEQw" name="the cross_1" type="_s6JhILx_EeWOMfbcBMUEQw" association="_GmGsgLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_jEYyYLx-EeWOMfbcBMUEQw" name="The STICK" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_n7BKILx-EeWOMfbcBMUEQw" name="Some sort of Stick shall be placed in the ETSII to be easily recognised by potential drone-based guidance-system users"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_g_oP4Lx_EeWOMfbcBMUEQw" name="Three parameters characterise the STICK: Diameter (Radius), Height and Color"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_s6JhILx_EeWOMfbcBMUEQw" name="The CROSS" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_s6JhIbx_EeWOMfbcBMUEQw" name="Some sort of CROSS shall be placed in the ETSII (on the floor) to be easily recognised by potential drone-based guidance-system users"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_s6JhIrx_EeWOMfbcBMUEQw" name="Three parameters characterise the CROSS: arm width, arm length and color (arms number is set to 4)"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CWUu0LyAEeWOMfbcBMUEQw" name="Information poster" visibility="package">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_NF7sILyAEeWOMfbcBMUEQw" name="The information poster will be located near the maker, so that the potential drone-based guidance-system user may read it"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_H5lGkbyBEeWOMfbcBMUEQw" name="what is the drone-based guidance-system?_1" type="_XO6uULyAEeWOMfbcBMUEQw" aggregation="composite" association="_H5j4cLyBEeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_TqnrsryBEeWOMfbcBMUEQw" name="what to do after requesting guidance system?_1" type="_qj9QYLyAEeWOMfbcBMUEQw" aggregation="composite" association="_TqnEoLyBEeWOMfbcBMUEQw"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_U_LD0ryBEeWOMfbcBMUEQw" name="how to call for a guidance-drone?_1" type="_g5JX8LyAEeWOMfbcBMUEQw" aggregation="composite" association="_U_KcwLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_XO6uULyAEeWOMfbcBMUEQw" name="What is the Drone-Based Guidance-System?"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_g5JX8LyAEeWOMfbcBMUEQw" name="How to call for a guidance-drone?">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_pz3QMLyAEeWOMfbcBMUEQw" name="How to call for a guidance-drone?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_qj9QYLyAEeWOMfbcBMUEQw" name="What to do after requesting guidance system?">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_qj9QYbyAEeWOMfbcBMUEQw" name="How to call for a guidance-drone?"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_0S-6cLyAEeWOMfbcBMUEQw" memberEnd="_0S_hgbyAEeWOMfbcBMUEQw _0S_hgryAEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0S-6cbyAEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0S_hgLyAEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_0S_hgryAEeWOMfbcBMUEQw" name="meeting point_1" type="_X1788Lx-EeWOMfbcBMUEQw" association="_0S-6cLyAEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_-_hVoLyAEeWOMfbcBMUEQw" memberEnd="_-_hVo7yAEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-_hVobyAEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-_hVoryAEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_-_hVo7yAEeWOMfbcBMUEQw" name="meeting point_1" type="_X1788Lx-EeWOMfbcBMUEQw" association="_-_hVoLyAEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_AA0akLyBEeWOMfbcBMUEQw" memberEnd="_AA1BoryBEeWOMfbcBMUEQw _AA1osLyBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AA1BoLyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AA1BobyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_AA1osLyBEeWOMfbcBMUEQw" name="meeting point subsystem_1" type="_VYgGoLx9EeWOMfbcBMUEQw" association="_AA0akLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_DqgeELyBEeWOMfbcBMUEQw" memberEnd="_DqhFIryBEeWOMfbcBMUEQw _DqhFI7yBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DqhFILyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DqhFIbyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_DqhFI7yBEeWOMfbcBMUEQw" name="meeting point_1" type="_X1788Lx-EeWOMfbcBMUEQw" association="_DqgeELyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_FNn2oLyBEeWOMfbcBMUEQw" memberEnd="_FNodsryBEeWOMfbcBMUEQw _FNpEwLyBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FNodsLyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FNodsbyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_FNpEwLyBEeWOMfbcBMUEQw" name="marker_1" type="_hEewILx-EeWOMfbcBMUEQw" association="_FNn2oLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GmGsgLyBEeWOMfbcBMUEQw" memberEnd="_GmH6oLyBEeWOMfbcBMUEQw _GmH6obyBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GmHTkLyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GmHTkbyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GmH6obyBEeWOMfbcBMUEQw" name="marker_1" type="_hEewILx-EeWOMfbcBMUEQw" association="_GmGsgLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_H5j4cLyBEeWOMfbcBMUEQw" memberEnd="_H5lGkbyBEeWOMfbcBMUEQw _H5lGkryBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H5kfgLyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_H5lGkLyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_H5lGkryBEeWOMfbcBMUEQw" name="information poster_1" type="_CWUu0LyAEeWOMfbcBMUEQw" association="_H5j4cLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_TqnEoLyBEeWOMfbcBMUEQw" memberEnd="_TqnrsryBEeWOMfbcBMUEQw _TqoSwLyBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TqnrsLyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TqnrsbyBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_TqoSwLyBEeWOMfbcBMUEQw" name="information poster_1" type="_CWUu0LyAEeWOMfbcBMUEQw" association="_TqnEoLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_U_KcwLyBEeWOMfbcBMUEQw" memberEnd="_U_LD0ryBEeWOMfbcBMUEQw _U_LD07yBEeWOMfbcBMUEQw">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_U_LD0LyBEeWOMfbcBMUEQw" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_U_LD0byBEeWOMfbcBMUEQw" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_U_LD07yBEeWOMfbcBMUEQw" name="information poster_1" type="_CWUu0LyAEeWOMfbcBMUEQw" association="_U_KcwLyBEeWOMfbcBMUEQw"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_7UqrQLFNEeWoUp-kx4A_qQ" name="Satisfies" client="_iASEoLFHEeWoUp-kx4A_qQ" supplier="_KXXSkLFHEeWoUp-kx4A_qQ"/>
     </packagedElement>
@@ -4099,4 +4211,15 @@ INCONSISTENCIES</body>
   <Blocks:Block xmi:id="_lKRQwLuBEeWW_9WJR1HJNQ" base_Class="_lKQCoLuBEeWW_9WJR1HJNQ"/>
   <Blocks:Block xmi:id="_-F6O8LuBEeWW_9WJR1HJNQ" base_Class="_-F3LoLuBEeWW_9WJR1HJNQ"/>
   <Blocks:Block xmi:id="_gEChULuCEeWW_9WJR1HJNQ" base_Class="_gEBTMLuCEeWW_9WJR1HJNQ"/>
+  <Blocks:Block xmi:id="_VYlmMLx9EeWOMfbcBMUEQw" base_Class="_VYgGoLx9EeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_X18kALx-EeWOMfbcBMUEQw" base_Class="_X1788Lx-EeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_hEf-QLx-EeWOMfbcBMUEQw" base_Class="_hEewILx-EeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_jEankLx-EeWOMfbcBMUEQw" base_Class="_jEYyYLx-EeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_s6KvQLx_EeWOMfbcBMUEQw" base_Class="_s6JhILx_EeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_CWWkALyAEeWOMfbcBMUEQw" base_Class="_CWUu0LyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_XO9KkLyAEeWOMfbcBMUEQw" base_Class="_XO6uULyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_g5KmELyAEeWOMfbcBMUEQw" base_Class="_g5JX8LyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_pz66kLyAEeWOMfbcBMUEQw" base_Class="_pz3QMLyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_qj_FkLyAEeWOMfbcBMUEQw" base_Class="_qj9QYbyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_qj_soLyAEeWOMfbcBMUEQw" base_Class="_qj9QYLyAEeWOMfbcBMUEQw"/>
 </xmi:XMI>
