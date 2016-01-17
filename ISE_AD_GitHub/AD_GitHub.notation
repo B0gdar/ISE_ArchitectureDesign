@@ -16158,6 +16158,11 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uV81QrPCEeWg6OidtfhE_g" x="56" y="53"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_YfzDELueEeW0Bbbf_g52ow" type="2015">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kqbwcLz9EeWnBcMv1m5HDQ" source="PapyrusHyperLink_Object" references="_6gJ7kLOyEeWg6OidtfhE_g">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqbwcbz9EeWnBcMv1m5HDQ" key="tooltip_text"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqbwcrz9EeWnBcMv1m5HDQ" key="pageName" value="PapyrusHyperLink_Object"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kqbwc7z9EeWnBcMv1m5HDQ" key="is_default_navigation" value="false"/>
+      </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_Yf1fULueEeW0Bbbf_g52ow" type="5019"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_Yf1fUbueEeW0Bbbf_g52ow" type="6047">
         <layoutConstraint xmi:type="notation:Location" xmi:id="_Yf2GYLueEeW0Bbbf_g52ow" y="5"/>
