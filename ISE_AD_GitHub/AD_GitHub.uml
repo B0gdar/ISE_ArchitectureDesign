@@ -2366,6 +2366,28 @@ Concerns satisfied: &#xD;
 &#xD;
 INCONSISTENCIES</body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ZKFEUL1NEeWXbeNVCukgHQ">
+          <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8uRqsL1PEeWXbeNVCukgHQ">
+          <body>RATIONALE&#xD;
+Diagram Name: ISE documentation&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram specifies all the documentation made for the project.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+        </ownedComment>
         <ownedRule xmi:type="uml:Constraint" xmi:id="_61cc8LIvEeWoUp-kx4A_qQ" name="Constraint2" constrainedElement="_cX2kALItEeWoUp-kx4A_qQ">
           <specification xmi:type="uml:LiteralString" xmi:id="_61drELIvEeWoUp-kx4A_qQ" name="constraintSpec" value="1200 mAh"/>
         </ownedRule>
@@ -3892,6 +3914,192 @@ INCONSISTENCIES</body>
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_U_LD07yBEeWOMfbcBMUEQw" name="information poster_1" type="_CWUu0LyAEeWOMfbcBMUEQw" association="_U_KcwLyBEeWOMfbcBMUEQw"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3WSkQL1NEeWXbeNVCukgHQ" name="Drone identification">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_fk59QL1OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" aggregation="composite" association="_fk2S4L1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NmqPAL1OEeWXbeNVCukgHQ" name="Dronetag">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gi2zQL1OEeWXbeNVCukgHQ" name="bidi_1" type="_RmED0L1OEeWXbeNVCukgHQ" aggregation="composite" association="_gi1lIL1OEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hjgX871OEeWXbeNVCukgHQ" name="id_1" type="_RHc1ML1OEeWXbeNVCukgHQ" aggregation="composite" association="_hjgX8L1OEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iSm5or1OEeWXbeNVCukgHQ" name="owner_1" type="_TQGjwL1OEeWXbeNVCukgHQ" aggregation="composite" association="_iSmSkL1OEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_jL0Zkb1OEeWXbeNVCukgHQ" name="model_1" type="_TXI_4L1OEeWXbeNVCukgHQ" aggregation="composite" association="_jLzygL1OEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_j1nkg71OEeWXbeNVCukgHQ" name="last tested_1" type="_W2c_YL1OEeWXbeNVCukgHQ" aggregation="composite" association="_j1nkgL1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RHc1ML1OEeWXbeNVCukgHQ" name="id"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RmED0L1OEeWXbeNVCukgHQ" name="BIDI"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TQGjwL1OEeWXbeNVCukgHQ" name="Owner">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Vg46oL1OEeWXbeNVCukgHQ" name="Dronetag"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TXI_4L1OEeWXbeNVCukgHQ" name="Model"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W2c_YL1OEeWXbeNVCukgHQ" name="Last tested"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_fk2S4L1OEeWXbeNVCukgHQ" memberEnd="_fk59QL1OEeWXbeNVCukgHQ _fk59Qb1OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fk4IEL1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fk4vIL1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_fk59Qb1OEeWXbeNVCukgHQ" name="drone identification_1" type="_3WSkQL1NEeWXbeNVCukgHQ" association="_fk2S4L1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_gi1lIL1OEeWXbeNVCukgHQ" memberEnd="_gi2zQL1OEeWXbeNVCukgHQ _gi4BYL1OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gi2MML1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gi2MMb1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_gi4BYL1OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" association="_gi1lIL1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_hjgX8L1OEeWXbeNVCukgHQ" memberEnd="_hjgX871OEeWXbeNVCukgHQ _hjg_AL1OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hjgX8b1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hjgX8r1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_hjg_AL1OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" association="_hjgX8L1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_iSmSkL1OEeWXbeNVCukgHQ" memberEnd="_iSm5or1OEeWXbeNVCukgHQ _iSm5o71OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iSm5oL1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iSm5ob1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_iSm5o71OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" association="_iSmSkL1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_jLzygL1OEeWXbeNVCukgHQ" memberEnd="_jL0Zkb1OEeWXbeNVCukgHQ _jL0Zkr1OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jLzygb1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jL0ZkL1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_jL0Zkr1OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" association="_jLzygL1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_j1nkgL1OEeWXbeNVCukgHQ" memberEnd="_j1nkg71OEeWXbeNVCukgHQ _j1oLkL1OEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_j1nkgb1OEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_j1nkgr1OEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_j1oLkL1OEeWXbeNVCukgHQ" name="dronetag_1" type="_NmqPAL1OEeWXbeNVCukgHQ" association="_j1nkgL1OEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__wznkL1PEeWXbeNVCukgHQ" name="ISE documentation">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_D5mB4L1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_54xnw71QEeWXbeNVCukgHQ" name="conops_1" type="_EaCcgL1QEeWXbeNVCukgHQ" aggregation="composite" association="_54xnwL1QEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6qy6kr1QEeWXbeNVCukgHQ" name="syrs_1" type="_v94r8L1QEeWXbeNVCukgHQ" aggregation="composite" association="_6qyTgL1QEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7Mzbcb1QEeWXbeNVCukgHQ" name="design_1" type="_GqYHcL1QEeWXbeNVCukgHQ" aggregation="composite" association="_7My0YL1QEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_7wc7EL1QEeWXbeNVCukgHQ" name="testing_1" type="_G4sQQL1QEeWXbeNVCukgHQ" aggregation="composite" association="_7wcUAL1QEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8Vndo71QEeWXbeNVCukgHQ" name="system_1" type="_G_988L1QEeWXbeNVCukgHQ" aggregation="composite" association="_8VndoL1QEeWXbeNVCukgHQ"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_86ba471QEeWXbeNVCukgHQ" name="report_1" type="_HJxZML1QEeWXbeNVCukgHQ" aggregation="composite" association="_86ba4L1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_EaCcgL1QEeWXbeNVCukgHQ" name="ConOps">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_EaCcgb1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GqYHcL1QEeWXbeNVCukgHQ" name="Design">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_GqYHcb1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_G4sQQL1QEeWXbeNVCukgHQ" name="Testing">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_G4sQQb1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_G_988L1QEeWXbeNVCukgHQ" name="System">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_G_988b1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_HJxZML1QEeWXbeNVCukgHQ" name="Report">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_HJxZMb1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_v94r8L1QEeWXbeNVCukgHQ" name="SyRS">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_v94r8b1QEeWXbeNVCukgHQ">
+            <body>RATIONALE&#xD;
+Diagram Name: BDD Drone identification&#xD;
+Created by: AS, 17/01/2016 (20:00)&#xD;
+Last modification by: AS, 17/01/2016 (20:00)&#xD;
+Description: This diagram establishes the drone identifier.&#xD;
+Stakeholders:&#xD;
+Concerns satisfied: &#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_54xnwL1QEeWXbeNVCukgHQ" memberEnd="_54xnw71QEeWXbeNVCukgHQ _54yO0L1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_54xnwb1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_54xnwr1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_54yO0L1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_54xnwL1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_6qyTgL1QEeWXbeNVCukgHQ" memberEnd="_6qy6kr1QEeWXbeNVCukgHQ _6qzhoL1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6qy6kL1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6qy6kb1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_6qzhoL1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_6qyTgL1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7My0YL1QEeWXbeNVCukgHQ" memberEnd="_7Mzbcb1QEeWXbeNVCukgHQ _7Mzbcr1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7My0Yb1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7MzbcL1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7Mzbcr1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_7My0YL1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7wcUAL1QEeWXbeNVCukgHQ" memberEnd="_7wc7EL1QEeWXbeNVCukgHQ _7wc7Eb1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7wcUAb1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7wcUAr1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7wc7Eb1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_7wcUAL1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_8VndoL1QEeWXbeNVCukgHQ" memberEnd="_8Vndo71QEeWXbeNVCukgHQ _8VndpL1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8Vndob1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8Vndor1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_8VndpL1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_8VndoL1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_86ba4L1QEeWXbeNVCukgHQ" memberEnd="_86ba471QEeWXbeNVCukgHQ _86cB8L1QEeWXbeNVCukgHQ">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_86ba4b1QEeWXbeNVCukgHQ" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_86ba4r1QEeWXbeNVCukgHQ" key="nature" value="SysML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_86cB8L1QEeWXbeNVCukgHQ" name="ise documentation_1" type="__wznkL1PEeWXbeNVCukgHQ" association="_86ba4L1QEeWXbeNVCukgHQ"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_7UqrQLFNEeWoUp-kx4A_qQ" name="Satisfies" client="_iASEoLFHEeWoUp-kx4A_qQ" supplier="_KXXSkLFHEeWoUp-kx4A_qQ"/>
     </packagedElement>
@@ -4260,4 +4468,19 @@ INCONSISTENCIES</body>
   <Blocks:Block xmi:id="_pz66kLyAEeWOMfbcBMUEQw" base_Class="_pz3QMLyAEeWOMfbcBMUEQw"/>
   <Blocks:Block xmi:id="_qj_FkLyAEeWOMfbcBMUEQw" base_Class="_qj9QYbyAEeWOMfbcBMUEQw"/>
   <Blocks:Block xmi:id="_qj_soLyAEeWOMfbcBMUEQw" base_Class="_qj9QYLyAEeWOMfbcBMUEQw"/>
+  <Blocks:Block xmi:id="_3WXcwL1NEeWXbeNVCukgHQ" base_Class="_3WSkQL1NEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_NmsEML1OEeWXbeNVCukgHQ" base_Class="_NmqPAL1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_RHeDUL1OEeWXbeNVCukgHQ" base_Class="_RHc1ML1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_RmFR8L1OEeWXbeNVCukgHQ" base_Class="_RmED0L1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_TQIY8L1OEeWXbeNVCukgHQ" base_Class="_TQGjwL1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_TXKOAL1OEeWXbeNVCukgHQ" base_Class="_TXI_4L1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_Vg6v0L1OEeWXbeNVCukgHQ" base_Class="_Vg46oL1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_W2eNgL1OEeWXbeNVCukgHQ" base_Class="_W2c_YL1OEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="__w0OoL1PEeWXbeNVCukgHQ" base_Class="__wznkL1PEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_EaDqoL1QEeWXbeNVCukgHQ" base_Class="_EaCcgL1QEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_GqZVkL1QEeWXbeNVCukgHQ" base_Class="_GqYHcL1QEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_G4teYL1QEeWXbeNVCukgHQ" base_Class="_G4sQQL1QEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_G__LEL1QEeWXbeNVCukgHQ" base_Class="_G_988L1QEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_HJynUL1QEeWXbeNVCukgHQ" base_Class="_HJxZML1QEeWXbeNVCukgHQ"/>
+  <Blocks:Block xmi:id="_v96hIL1QEeWXbeNVCukgHQ" base_Class="_v94r8L1QEeWXbeNVCukgHQ"/>
 </xmi:XMI>
