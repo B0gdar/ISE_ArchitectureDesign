@@ -821,6 +821,23 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Activity" xmi:id="_mCEFkL1cEeWTA-BSXO0fmw" name="Avoiding a collision" useCase="_qzsBgL1cEeWTA-BSXO0fmw _0y41kL1cEeWTA-BSXO0fmw _L8ue8L1dEeWTA-BSXO0fmw _NqEKgL1dEeWTA-BSXO0fmw">
+                <ownedRule xmi:type="uml:Constraint" xmi:id="_myTaQL1dEeWTA-BSXO0fmw" name="Safety distances">
+                  <specification xmi:type="uml:LiteralString" xmi:id="_myZg4L1dEeWTA-BSXO0fmw" name="constraintSpec"/>
+                </ownedRule>
+                <generalization xmi:type="uml:Generalization" xmi:id="_csdysL1dEeWTA-BSXO0fmw" general="_L8ue8L1dEeWTA-BSXO0fmw"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qzsBgL1cEeWTA-BSXO0fmw" name="Standard drone fligh" subject="_mCEFkL1cEeWTA-BSXO0fmw">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_b_-gIL1dEeWTA-BSXO0fmw" general="_0y41kL1cEeWTA-BSXO0fmw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_0y41kL1cEeWTA-BSXO0fmw" name="Recalculate optimal route" subject="_mCEFkL1cEeWTA-BSXO0fmw">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_cU3LAL1dEeWTA-BSXO0fmw" general="_NqEKgL1dEeWTA-BSXO0fmw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_L8ue8L1dEeWTA-BSXO0fmw" name="Continue to destination" subject="_mCEFkL1cEeWTA-BSXO0fmw"/>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_NqEKgL1dEeWTA-BSXO0fmw" name="Landing in secure" subject="_mCEFkL1cEeWTA-BSXO0fmw"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_EI4vML1dEeWTA-BSXO0fmw" name="Obstacle detected"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_KPm10L1dEeWTA-BSXO0fmw" name="New optimal route"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_Xg2CYL1dEeWTA-BSXO0fmw" name="Fail to get new route"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Association" xmi:id="_l1AswLOzEeWg6OidtfhE_g" memberEnd="_l1SZkLOzEeWg6OidtfhE_g _l1TnsLOzEeWg6OidtfhE_g">
               <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l1EXILOzEeWg6OidtfhE_g" source="org.eclipse.papyrus">
@@ -922,6 +939,28 @@ INCONSISTENCIES: </body>
               <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1oLyUEeWv_74potBOnA" name="guide user to destination" type="_hJveELyTEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1obyUEeWv_74potBOnA" name="user ready" type="_u9wLELyUEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
             </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_VsKYsL1dEeWTA-BSXO0fmw" memberEnd="_VsK_wr1dEeWTA-BSXO0fmw _VsK_w71dEeWTA-BSXO0fmw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VsK_wL1dEeWTA-BSXO0fmw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VsK_wb1dEeWTA-BSXO0fmw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_VsK_wr1dEeWTA-BSXO0fmw" name="new optimal route" type="_KPm10L1dEeWTA-BSXO0fmw" association="_VsKYsL1dEeWTA-BSXO0fmw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_VsK_w71dEeWTA-BSXO0fmw" name="continue to destination" type="_L8ue8L1dEeWTA-BSXO0fmw" association="_VsKYsL1dEeWTA-BSXO0fmw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_WIOpoL1dEeWTA-BSXO0fmw" memberEnd="_WIPQsr1dEeWTA-BSXO0fmw _WIPQs71dEeWTA-BSXO0fmw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WIPQsL1dEeWTA-BSXO0fmw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WIPQsb1dEeWTA-BSXO0fmw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_WIPQsr1dEeWTA-BSXO0fmw" name="standard drone fligh" type="_qzsBgL1cEeWTA-BSXO0fmw" association="_WIOpoL1dEeWTA-BSXO0fmw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_WIPQs71dEeWTA-BSXO0fmw" name="obstacle detected" type="_EI4vML1dEeWTA-BSXO0fmw" association="_WIOpoL1dEeWTA-BSXO0fmw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_blC3oL1dEeWTA-BSXO0fmw" memberEnd="_blDesb1dEeWTA-BSXO0fmw _blDesr1dEeWTA-BSXO0fmw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_blC3ob1dEeWTA-BSXO0fmw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_blDesL1dEeWTA-BSXO0fmw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_blDesb1dEeWTA-BSXO0fmw" name="landing in secure" type="_NqEKgL1dEeWTA-BSXO0fmw" association="_blC3oL1dEeWTA-BSXO0fmw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_blDesr1dEeWTA-BSXO0fmw" name="fail to get new route" type="_Xg2CYL1dEeWTA-BSXO0fmw" association="_blC3oL1dEeWTA-BSXO0fmw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Dependency" xmi:id="_vgAKML1dEeWTA-BSXO0fmw" client="_0y41kL1cEeWTA-BSXO0fmw" supplier="_myTaQL1dEeWTA-BSXO0fmw"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
             <ownedComment xmi:type="uml:Comment" xmi:id="_u2EHcLO8EeWg6OidtfhE_g">
