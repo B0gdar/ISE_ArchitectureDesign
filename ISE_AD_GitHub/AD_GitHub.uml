@@ -705,6 +705,25 @@ INCONSISTENCIES: </body>
                   </ownedComment>
                 </region>
               </ownedBehavior>
+              <nestedClassifier xmi:type="uml:Activity" xmi:id="_TObTML7XEeWfBPiFPtcOsw" name="Change drone operation parameters" useCase="_89B4QL7XEeWfBPiFPtcOsw _PIuMoL7YEeWfBPiFPtcOsw _gURSoL7YEeWfBPiFPtcOsw">
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_89B4QL7XEeWfBPiFPtcOsw" name="Change parameters command" subject="_TObTML7XEeWfBPiFPtcOsw">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_lneRoL7YEeWfBPiFPtcOsw" general="_DadOsL7YEeWfBPiFPtcOsw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_DadOsL7YEeWfBPiFPtcOsw" name="Give up normal operation">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_DadOsb7YEeWfBPiFPtcOsw" general="_jmbZQLueEeW0Bbbf_g52ow"/>
+                  <generalization xmi:type="uml:Generalization" xmi:id="_moK5oL7YEeWfBPiFPtcOsw" general="_I-eQ4L7YEeWfBPiFPtcOsw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_I-eQ4L7YEeWfBPiFPtcOsw" name="Check Drone availability">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_I-eQ4b7YEeWfBPiFPtcOsw" general="_otq_4LueEeW0Bbbf_g52ow"/>
+                  <generalization xmi:type="uml:Generalization" xmi:id="_nlqcoL7YEeWfBPiFPtcOsw" general="_PIuMoL7YEeWfBPiFPtcOsw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_PIuMoL7YEeWfBPiFPtcOsw" name="New parameters message" subject="_TObTML7XEeWfBPiFPtcOsw">
+                  <generalization xmi:type="uml:Generalization" xmi:id="_ogBzIL7YEeWfBPiFPtcOsw" general="_gURSoL7YEeWfBPiFPtcOsw"/>
+                </ownedUseCase>
+                <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gURSoL7YEeWfBPiFPtcOsw" name="Expected response" subject="_TObTML7XEeWfBPiFPtcOsw"/>
+              </nestedClassifier>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_3MMFkL7YEeWfBPiFPtcOsw" name="System Adm"/>
+              <nestedClassifier xmi:type="uml:Actor" xmi:id="_edtkML7ZEeWfBPiFPtcOsw" name="Drones ON"/>
             </packagedElement>
             <packagedElement xmi:type="uml:Class" xmi:id="_95t4YLOyEeWg6OidtfhE_g" name="Landing in secure" classifierBehavior="_i7Ib8LO7EeWg6OidtfhE_g">
               <ownedComment xmi:type="uml:Comment" xmi:id="_vFRZYLPCEeWg6OidtfhE_g">
@@ -921,6 +940,27 @@ INCONSISTENCIES: </body>
               </eAnnotations>
               <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1oLyUEeWv_74potBOnA" name="guide user to destination" type="_hJveELyTEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
               <ownedEnd xmi:type="uml:Property" xmi:id="_zOg1obyUEeWv_74potBOnA" name="user ready" type="_u9wLELyUEeWv_74potBOnA" association="_zOdyULyUEeWv_74potBOnA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_BBsyIL7ZEeWfBPiFPtcOsw" memberEnd="_BB5mcL7ZEeWfBPiFPtcOsw _BB60kL7ZEeWfBPiFPtcOsw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BByRsL7ZEeWfBPiFPtcOsw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BBzf0L7ZEeWfBPiFPtcOsw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_BB5mcL7ZEeWfBPiFPtcOsw" name="change parameters command" type="_89B4QL7XEeWfBPiFPtcOsw" association="_BBsyIL7ZEeWfBPiFPtcOsw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_BB60kL7ZEeWfBPiFPtcOsw" name="system adm" type="_3MMFkL7YEeWfBPiFPtcOsw" association="_BBsyIL7ZEeWfBPiFPtcOsw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_hIlPAL7ZEeWfBPiFPtcOsw" memberEnd="_hInEML7ZEeWfBPiFPtcOsw _hInrQL7ZEeWfBPiFPtcOsw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hImdIL7ZEeWfBPiFPtcOsw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hImdIb7ZEeWfBPiFPtcOsw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_hInEML7ZEeWfBPiFPtcOsw" name="check drone availability" type="_I-eQ4L7YEeWfBPiFPtcOsw" association="_hIlPAL7ZEeWfBPiFPtcOsw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_hInrQL7ZEeWfBPiFPtcOsw" name="drones on" type="_edtkML7ZEeWfBPiFPtcOsw" association="_hIlPAL7ZEeWfBPiFPtcOsw"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_hr-3AL7ZEeWfBPiFPtcOsw" memberEnd="_hsAFIb7ZEeWfBPiFPtcOsw _hsAsML7ZEeWfBPiFPtcOsw">
+              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hr_eEL7ZEeWfBPiFPtcOsw" source="org.eclipse.papyrus">
+                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hsAFIL7ZEeWfBPiFPtcOsw" key="nature" value="UML_Nature"/>
+              </eAnnotations>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_hsAFIb7ZEeWfBPiFPtcOsw" name="expected response" type="_gURSoL7YEeWfBPiFPtcOsw" association="_hr-3AL7ZEeWfBPiFPtcOsw"/>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_hsAsML7ZEeWfBPiFPtcOsw" name="drones on" type="_edtkML7ZEeWfBPiFPtcOsw" association="_hr-3AL7ZEeWfBPiFPtcOsw"/>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Model" xmi:id="_hxr2sLOyEeWg6OidtfhE_g" name="Interfaces model">
